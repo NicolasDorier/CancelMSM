@@ -14,6 +14,24 @@ If you think you are too intelligent to be manipulated, you are wrong, nobody is
 
 This repository will not make distinction between "legit mainstream media" and "illegitimate mainstream media", this is for you to chose. If you don't have time to choose, the sanest default is to block all of them.
 
-# License
+## How to use this repository
+
+This repository will include more and more tooling to make your job easier. For now it only contains:
+
+* [twitter](twitter), a list of twitter handle tied to mainstream media.
+
+## FAQ
+
+> How to contribute?
+
+Just make a pull request to add a mainstream media you want to cancel.
+
+> Which media should be cancelled?
+
+Does it publish news? It should be cancelled.
+What they think politically, the language they talk, nothing of it matter, they should be in our list.
+If you like a specific news organisation, feel free to unblock some of them.
+
+## License
 
 MIT
