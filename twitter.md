@@ -33,7 +33,6 @@
 - [@bpolitics](https://twitter.com/bpolitics)
 - [@usnews](https://twitter.com/usnews)
 - [@googlenews](https://twitter.com/googlenews)
-- [@AOLNews](https://twitter.com/AOLNews)
 - [@thedailybeast](https://twitter.com/thedailybeast)
 - [@latimes](https://twitter.com/latimes)
 - [@usatoday](https://twitter.com/usatoday)
