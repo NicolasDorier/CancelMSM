@@ -18,7 +18,7 @@ This repository will not make distinction between "legit mainstream media" and "
 
 This repository will include more and more tooling to make your job easier. For now it only contains:
 
-* [twitter](twitter), a list of twitter handle tied to mainstream media.
+* [twitter](twitter.md), a list of twitter handle tied to mainstream media.
 
 ## FAQ
 
