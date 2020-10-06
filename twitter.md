@@ -19,3 +19,5 @@
 - [@zerohedge](https://twitter.com/zerohedge)
 - [@npr](https://twitter.com/npr)
 - [@rt_com](https://twitter.com/rt_com)
+- [@BreitbartLondon](https://twitter.com/BreitbartLondon)
+- [@CNBC](https://twitter.com/CNBC)
