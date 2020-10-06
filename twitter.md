@@ -6,7 +6,7 @@
 - [@foxnews](https://twitter.com/foxnews)
 - [@msnbc](https://twitter.com/msnbc)
 - [@nbcnews](https://twitter.com/nbcnews)
-- [@nbcnighltynews](https://twitter.com/nbcnighltynews)
+- [@nbcnightlynews](https://twitter.com/nbcnightlynews)
 - [@NYTimes](https://twitter.com/NYTimes)
 - [@vicenews](https://twitter.com/vicenews)
 - [@hbo](https://twitter.com/hbo)
