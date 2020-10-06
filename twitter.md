@@ -23,3 +23,4 @@
 - [@CNBC](https://twitter.com/CNBC)
 - [@nypost](https://twitter.com/nypost)
 - [@Business](https://twitter.com/Business)
+- [@bopinion](https://twitter.com/bopinion)
