@@ -24,7 +24,7 @@
 - [@nypost](https://twitter.com/nypost)
 - [@Business](https://twitter.com/Business)
 - [@bopinion](https://twitter.com/bopinion)
-- [@AP](https://twitter.com/bopinion)
+- [@AP](https://twitter.com/AP)
 - [@yahoonews](https://twitter.com/yahoonews)
 - [@bbc](https://twitter.com/bbc)
 - [@newsweek](https://twitter.com/newsweek)
