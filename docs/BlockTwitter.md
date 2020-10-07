@@ -15,6 +15,7 @@ For this, you need first to install [Selenium IDE](https://www.selenium.dev/sele
 For Selenium to work properly on Firefox, you need to disable CSP. Do not forget to re-enable it after you are done.
 
 It might not be necessary on Chrome.
+
 ![](img/Firefox.PNG)
 
 ### Step 2: Login in to your twitter account.
@@ -23,9 +24,11 @@ It might not be necessary on Chrome.
 Save the [side file](https://raw.githubusercontent.com/NicolasDorier/CancelMSM/master/BlockTwitter.side) somewhere on your computer.
 
 Run Selenium IDE, and open the side file.
+
 ![](img/Selenium1.PNG)
 
 You can then click on the play button.
+
 ![](img/Selenium2.PNG)
 
 ## Note
