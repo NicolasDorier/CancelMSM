@@ -27,6 +27,7 @@
 - [@AP](https://twitter.com/AP)
 - [@yahoonews](https://twitter.com/yahoonews)
 - [@bbc](https://twitter.com/bbc)
+- [@BBCBreaking](https://twitter.com/BBCBreaking)
 - [@newsweek](https://twitter.com/newsweek)
 - [@NewYorker](https://twitter.com/NewYorker)
 - [@politico](https://twitter.com/politico)
@@ -39,10 +40,6 @@
 - [@wsj](https://twitter.com/wsj)
 - [@Bostonherald](https://twitter.com/Bostonherald)
 - [France 24 English](https://twitter.com/France24_en)
-
-
-/* French (France) based MSM
-
 - [Le Monde](https://twitter.com/lemondefr)
 - [Le Monde Politique](https://twitter.com/lemonde_pol)
 - [Le Monde Afrique](https://twitter.com/LeMonde_Afrique)
@@ -86,3 +83,17 @@
 - [Radio France](https://twitter.com/radiofrance)
 - [RTL](https://twitter.com/RTLFrance)
 - [Europe 1](https://twitter.com/Europe1)
+- [@CBCNews](https://twitter.com/CBCNews)
+- [@CBC](https://twitter.com/CBC)
+- [@CTVNews](https://twitter.com/CTVNews)
+- [@globalnews](https://twitter.com/globalnews)
+- [@globeandmail](https://twitter.com/globeandmail)
+- [@TheTorontoSun](https://twitter.com/TheTorontoSun)
+- [@TorontoStar](https://twitter.com/TorontoStar)
+- [@CTVNationalNews](https://twitter.com/CTVNationalNews)
+- [@macleans](https://twitter.com/macleans)
+- [@YahooCanadaNews](https://twitter.com/YahooCanadaNews)
+- [@HuffPostCanada](https://twitter.com/HuffPostCanada)
+- [@CBCAlerts](https://twitter.com/CBCAlerts)
+- [@OttawaCitizen](https://twitter.com/OttawaCitizen)
+- [@GlobalNational](https://twitter.com/GlobalNational)
