@@ -1,0 +1,5576 @@
+{
+  "id": "6f460c1a-755d-d8e4-ad67-65d5f519dbc8",
+  "version": "2.0",
+  "name": "Delete Twitter",
+  "url": "https://twitter.com",
+  "tests": [
+    {
+      "id": "3b347c2b-f837-0085-ec5e-64005393b30d",
+      "name": "Block on twitter",
+      "commands": [
+        {
+          "id": "38fcf580-5bb1-4bae-2c4e-399cad3837ec",
+          "comment": "",
+          "command": "open",
+          "target": "/zerohedge",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d6cbf8d0-6f4e-1dc0-becf-6eafe3ebe34a",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "7dcced24-eda8-c033-f2d7-2993cedbc2e8",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "60b349b8-01a8-11e0-34df-79e2edfe6741",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "bf77ef6b-b96b-e243-c40a-e476452d4ee3",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "9af7850c-8237-23a2-0dbb-49c97451d3f3",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "df27e86f-0264-fe7c-06d0-9c9d1c69cc06",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "67d69590-cd07-e809-4c53-b2b0707a6d73",
+          "comment": "",
+          "command": "open",
+          "target": "/yahoonews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5d07f036-6e05-097e-09f9-9367e60406a3",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "de3842ef-6c7a-a2ec-de3f-921150cc8d8b",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2c672963-6e62-2200-16cd-5d0d39a20148",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2ec10f4c-8e42-c9f8-0365-7ec6db6db93c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "bd03076b-da9d-8041-4115-c7ad0ede683c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "40c44a3d-5f0a-d449-309d-28fcf03a47a9",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "32a22113-449e-72aa-ce41-ec2cc64bbb25",
+          "comment": "",
+          "command": "open",
+          "target": "/YahooCanadaNews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "908842fd-78a9-0c32-be2f-8c00b1449007",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "ed991ece-363c-f99d-9f52-72c9721c0de5",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "adff03e1-b6b1-9bff-ee96-736fb7aac089",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a75ee5b1-cdb1-c7e8-a48f-f156056899a1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "ae1ea721-e244-1855-1efd-fea6c22e41f5",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "8c18e891-65be-1433-1a38-0822c5a99586",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "104dd1fc-128b-ce45-9046-89b4ce420476",
+          "comment": "",
+          "command": "open",
+          "target": "/wsj",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1cc4fb4e-0c4f-bbe3-730a-930bd9335375",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "f0aa7867-30e0-7f69-a34a-fc78dc7f45d8",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c9d39234-78e4-ef36-ed91-9d817e39f45c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "564c13f2-1398-1e95-9245-7905106bdff4",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "47d7bbc4-895f-ee91-41ba-034e93e70169",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "c9859f55-ef33-2040-fcb5-379eff31de82",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c3bda9b2-ac62-69fd-815d-15dd10468baa",
+          "comment": "",
+          "command": "open",
+          "target": "/WashingtonPost",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "70b01043-15e6-d5c0-7ab6-4baa52f2ef0f",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "ea9b80dc-3e29-a806-a21c-47d6d9630fb5",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ee5b8c29-6e81-9d9c-e8e8-48ab6152168e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9001056d-a1ab-0580-0907-cecaceeafb17",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "c68096a7-0097-6e8e-e4fe-0141f55b4750",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "d368b805-7f62-880a-0b55-e57a9fd2cffd",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ca0430ec-50d1-6cf7-7792-abac9f3f0fad",
+          "comment": "",
+          "command": "open",
+          "target": "/vicenews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "15c47dbf-2882-27b5-8cf7-ba411b14ce12",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "c455042f-7d57-b47e-c1fb-5ccfd45de9cc",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "21ba3746-b90d-c47b-7bdd-3ed996b65163",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9a7d99c4-4ae9-4256-ff10-5486cbe6522e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "e3fbee0e-ac59-7504-8990-49793ea51e0b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "3a0af8aa-4fe0-fbe2-e078-22fd65f4f895",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a8cb0f8a-6dba-1809-9407-115901dc035a",
+          "comment": "",
+          "command": "open",
+          "target": "/usnews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d2dc49f1-18db-bf4d-0bff-02e189071094",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "2eefb498-76d9-3c50-eff2-a6d93d89fa03",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1c0bc875-2518-72b9-c20c-9cbb6b288e8c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "4dc17df7-d4ed-7b80-f99f-e3e971748182",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "c16bfe05-f3fc-727b-fa7d-6ccdda94d1c6",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "c0e21964-acc8-a016-4890-237942d0004d",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6cb51a8b-ccbc-038f-014e-537067b3a164",
+          "comment": "",
+          "command": "open",
+          "target": "/usatoday",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "58851dce-c092-59ba-e8cb-796cd002302a",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "bf421f7c-65df-9709-89de-bf7959a63895",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "24aabfef-a84a-cabb-605c-83f1532333fe",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "48f3281e-e170-6885-13ee-ceb30141ff41",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "107de492-0b57-d4df-6377-5f82e1184366",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "305ac0aa-f0b3-0d24-3a41-115cda07c91e",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6f5e415d-22a5-13a7-491e-e5f9810287fa",
+          "comment": "",
+          "command": "open",
+          "target": "/TV5MONDE",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "400967aa-cee6-a28e-c06f-d615fa82fa5c",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "9f2540ae-d4ba-87c0-1947-e7940a2a8c37",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "72b116ba-88fe-8e38-b3bb-af364b9119c6",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "404b8824-e7dd-d640-a681-279fe7f99795",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "e35a9fe3-87d1-255e-0897-ecfe248a3b87",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "8270212e-4bdf-d359-d5db-cb7c6098a6b9",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ac521a23-3536-9df5-2a25-3746fb42b11c",
+          "comment": "",
+          "command": "open",
+          "target": "/TorontoStar",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c671a045-1589-97b5-4587-0ef5bbe1c46f",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "0ada32f0-8f38-f851-2bd2-57ba1313d793",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c037af29-e027-0e30-64ba-66ae27ffe149",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c856c860-a668-b5e4-4e78-9ab6befb8332",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "0bcb7ab0-04a9-0f47-02cc-a67d28a2d12c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "4b590df1-0ebd-832a-cb81-71af45794f69",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "acfe3437-d633-5c9f-8046-c69c00678dac",
+          "comment": "",
+          "command": "open",
+          "target": "/time",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b0c56ea7-38a1-a174-5048-40289298c989",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "f4453c7c-24a4-1bf8-6efd-cb77488e8264",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d708c5f4-9eb3-ffc8-bf5d-5ceb9677cae7",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c31f3d7c-9821-8208-76aa-42a36cfd59c1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "cc34dbc5-f290-ddd5-7446-3447c80c84f7",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "0afae333-bf6f-5b43-bd86-61095c2492c2",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ba269b04-fd43-8a57-6842-4fda64c1b969",
+          "comment": "",
+          "command": "open",
+          "target": "/TheTorontoSun",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "89704b25-4e02-0651-98d8-0f0990cb8150",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "2d4272b4-cae6-35b3-8b70-a22d6f68f7fb",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "11e4f8cc-08b3-b5bf-491f-226aee4df99c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f126ffc0-8c7e-5b82-973b-fd92ab249630",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "983d13e0-70e7-ab9c-b38d-e4c7a849473d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "706c0676-0541-407d-7588-79770b2c0a24",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "da8af288-6110-50b4-627a-3ef1a8bbb24e",
+          "comment": "",
+          "command": "open",
+          "target": "/thedailybeast",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a41bbff4-26b8-daee-96fd-225ef624a086",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "b63ebf82-6cbe-152d-511b-0dc6c68c97ba",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4b832bd5-6511-616c-04af-44123e565a3d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e86eb8da-fc7d-878f-9105-539d1927130a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "cb886865-54a1-1c75-53dc-b20f281bd7fb",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "0eeccfc0-ae1d-d93c-9cfc-b90b12cf48dc",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d5ac3a9b-8fcd-859c-4352-95a04a7f5e76",
+          "comment": "",
+          "command": "open",
+          "target": "/TF1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4adc582e-053a-b6ec-2baf-2ea49b6a0a84",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "ee74d594-026e-312d-3266-cbca199c8e1c",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "badd429d-fef2-95a1-4df5-a91d60f7ead8",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "750c1048-700b-2b08-2aaa-17d439219d8f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "58071221-508c-9591-33de-a1785810d03b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "0882f27b-188f-2d11-3ab1-8f47e7cd5c2b",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4efc1958-92f0-f74b-7f76-422ccf90d219",
+          "comment": "",
+          "command": "open",
+          "target": "/sudouest",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4759dbda-949f-0900-01d9-1edbc049ae66",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "3e1f7582-8213-e94a-a68a-8918d5e45ea9",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0b6d76de-1473-c38c-19f3-4c1673703735",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "59aadcc8-9470-5705-9170-a1140ae7331d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "4afd747b-a3dc-6df2-e95b-252035347536",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "f9505453-0439-4a39-7016-7a037377b932",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ff9b2fc0-ed73-2458-e93c-70146ee5215c",
+          "comment": "",
+          "command": "open",
+          "target": "/RTLFrance",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b6c16afb-3997-76e3-3bb2-d9c629effa71",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "0660f3a2-7599-65c2-fb2b-10fc9424db8a",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "08071df4-02b6-869a-4c24-c4c01392fbfa",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "7b71fe42-1b84-85c3-a85c-ba6b29e6e216",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "0bd14fd7-f1e7-9fbb-58d9-b974b1025168",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "95ba152f-5fb2-d906-5982-605a482f5d65",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c4e9ad42-efc1-5112-43d2-23ab614fd4a5",
+          "comment": "",
+          "command": "open",
+          "target": "/rt",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "133b520a-4c2c-7764-48f7-b26591605728",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "0432547b-8d19-40a6-0368-52e03c5b780a",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f550baad-4af3-f639-4871-7bc93dadbfe2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "0c2ffa7a-cf1d-7d8c-abfb-10c3f9833bed",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "d6b7a87f-6210-3135-1b3b-bba711dc0256",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "41666fa8-6b2c-deed-2ed2-4af83a75fcc5",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "954a8e36-e9f5-17d1-c5fd-f1e114e46cce",
+          "comment": "",
+          "command": "open",
+          "target": "/radiofrance",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "891abaf8-f91d-14c1-bad9-a83e173df7a5",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "8371f63f-6d92-bf60-9e4e-7c2e790bc949",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "80ff7c66-725a-3ca7-cc36-da1c41930088",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "1da14b06-e873-8b3b-595b-ebce7d929aaf",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "9bd75e0f-763d-cc4b-4e34-b65c92447d0a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "2d28f34e-ab6a-7dd5-4073-26ff86d9be39",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e20c2b9b-64bc-8f4a-00d5-cf3f32dff915",
+          "comment": "",
+          "command": "open",
+          "target": "/politico",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "8980e1dd-6c6a-6344-8859-5bca504b4575",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "67c07c75-9a37-e94d-a998-2d95dc964b60",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a521117a-3558-2fcf-e6a8-5962097f3fb4",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b5c95a8f-921f-42dd-9397-e0d13faf87f2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "3e50fb0e-a02a-401c-ad90-808f41ebe029",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "81057859-95cd-e840-34df-11c154fdf036",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0d546721-002f-ee8a-3d88-088f114e01a8",
+          "comment": "",
+          "command": "open",
+          "target": "/ParisMatch",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c678b6b6-05a9-7824-bb68-0a4a8e5bebaf",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "d96d49a0-d296-59fa-ed17-44448cb1d6e5",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "9e0a69dd-2985-1b8c-42db-52c7f53f60e1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c7ee599c-28e0-e312-bb1e-d892c0dfec09",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "246d2591-4d51-762a-bd51-96ba803363ad",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "33a863b6-0ec2-b504-5726-e26650f95b62",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d03548ef-3bd2-4e8f-2e78-0a8f91576388",
+          "comment": "",
+          "command": "open",
+          "target": "/OuestFrance",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5ddc2bbb-b837-8247-20b8-cd2b6ac325c3",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "37cb33f6-92fd-7bdb-d359-044a04752300",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "25ab5ac2-fd1d-362b-01b2-b01a6e64e46a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5d984752-2b8c-288a-4f61-8addb3fd7eaa",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "1068cd94-0018-f8a5-0894-364be2c00c6f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "bcf79a75-c6dd-9673-cf82-d5bc734d8304",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a0860634-d3fb-5252-a29f-55f8f53f468e",
+          "comment": "",
+          "command": "open",
+          "target": "/OttawaCitizen",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "19681a54-c205-cdcd-59d2-40962ae885ba",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "dc163111-6c3a-a174-47a5-1a3d707ba090",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5868473c-69e5-71fe-39b8-472992bb28b9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c3e69b1a-6a28-e854-a6c6-d160a78f5ddd",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "e359b031-2c80-a8d5-33a5-a282244b0e8c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "d523607d-dc94-d267-f27f-b21e979dcaa9",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e1f7695b-4462-ed38-c63e-9083c7d2c35b",
+          "comment": "",
+          "command": "open",
+          "target": "/NYTimes",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "46e345b7-876c-5448-4987-f00079b61096",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "bb26f9db-2d53-382a-2835-0f564ce40b20",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "516657bc-83b9-d33d-20a3-98da5437730f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "cea8fa2e-08ab-8a07-1bab-1e3677f20765",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "2244cf7c-be4f-57dc-bb52-9ab0944fe3f0",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "522700c1-3d3b-b375-4fdb-360e64065b2e",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "855e339b-51f3-6fbf-1d50-12586e57f6cc",
+          "comment": "",
+          "command": "open",
+          "target": "/nypost",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "77752dc8-b5ca-3e29-5991-d37388cef3b5",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "60156cf6-5ef0-70fd-40b8-35eb2a1c45f8",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "364569e5-e491-e563-0a20-2b617e4be64e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "02615c5d-9642-69dc-3004-3712803d133d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "1f8eda4b-bc88-1224-082f-55d0339bf2f5",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "ce8ee6d2-42ba-4fb5-8ddc-068cad5165cc",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a315ed0c-c7bd-a0c6-384f-f913400b3695",
+          "comment": "",
+          "command": "open",
+          "target": "/npr",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "9a3f4212-45af-0982-253f-91acb69765b7",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "45c489c9-4e85-0b37-1fed-956b49a20f81",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6a7a71a6-cb11-c61c-6b0c-7e7d351ae9a1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b64941e9-f047-c30f-0a34-7ac1af17bf82",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "4506102f-fa1d-fea6-6cfd-da78d0b9d505",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "0781f403-5858-b539-61b6-60dc505a1654",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "254efb4d-a414-ef83-9b4b-4a4a1696f250",
+          "comment": "",
+          "command": "open",
+          "target": "/Nice",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "bbbd755f-b795-d72a-d650-e4669acaad11",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "d52b85e7-b06b-5ff0-7092-6c0d0eef9eca",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "db7d10c4-5b9d-95be-d176-4ec3c01d54d1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9062389d-1d6b-afe4-845e-4a024b1cc9e6",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "89a219b2-d24c-8b74-c696-04f5612d9f53",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "d56f9b3d-0d8c-a65e-2bce-563e10bc4ab4",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a61168ad-cb7a-ca84-c4d7-cad518ef4d57",
+          "comment": "",
+          "command": "open",
+          "target": "/NewYorker",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "afc4f6be-f3ad-a45a-bafb-5e7e7c357a0a",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "f948504b-f81c-72d9-17a4-11b543898e3c",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1a7fff80-9af7-b907-0e6c-ec7e6c054e8e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c889bf5c-54a7-c63a-1c51-9708e1a46131",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "7cfe216d-60b6-b112-488e-ebb00c5a0612",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "83598356-c5ff-2b95-c4b9-fda502fed869",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4a10bb0a-d106-fbd8-acd8-7f19698abac1",
+          "comment": "",
+          "command": "open",
+          "target": "/newsweek",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5eb2854b-dd4a-a831-8cd2-b8fc626dae49",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "51a581b6-bb4a-840b-ab5e-d726457cc239",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "7d593bff-794c-2c1e-8968-bd3419db983f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e863352a-69e5-9077-792d-b3ec060a6210",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "26fd7f10-3013-3cfd-6278-c7e1fdd76bcf",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "0ffc97c5-da18-9654-c4c9-031fc632267e",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "9a23ad06-72dd-f92c-3826-856ca19693a2",
+          "comment": "",
+          "command": "open",
+          "target": "/nbcnightlynews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6e27e3c2-520e-36f7-2a67-62492dde7530",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "50da4852-d1b3-52f1-6b02-d7f254e7f42d",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e35d6136-b70a-b370-b5ed-6f760fe2cc5a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "581a55b0-42bb-f0ef-f1d4-020b7b05e143",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "cc133572-9280-9a25-d727-9bc5627b4389",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "fe417c36-9bcc-f371-716c-f136b56538af",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "da032b0c-00ce-1ed9-3080-8094a7298e76",
+          "comment": "",
+          "command": "open",
+          "target": "/nbcnews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "fed47991-e3c4-d776-c320-5a14a1eee572",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "36b9ebef-6977-36ba-a323-ce4c1add4b48",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3ba57bdd-3990-29eb-b52c-16aea5c47d41",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "bca50e9b-5870-27fe-be9e-5ba01429bce5",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "253712d4-a949-b5e1-ff90-804b520c90de",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "0cb18ca5-8f38-84d7-7c7d-7df2de4a148b",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "93d9306f-578d-f1f7-2def-bce0d8b2d5b1",
+          "comment": "",
+          "command": "open",
+          "target": "/msnbc",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "88fa7d0e-b078-45ad-3ab2-a8cc2befd7b4",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "21dbf47b-fc33-4e50-94bf-de48d2f7acca",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "60e3cba7-8b4f-bf13-8393-58dbae2bc53e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e3640718-b4d6-117e-2dac-f3b9d1657243",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "6024de05-760b-ef64-e11c-9d9fa4749f69",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "ca2fa0f9-c992-f3f3-4dd1-33a39859ee1e",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cfd51420-6506-a232-a274-01ba16df6db8",
+          "comment": "",
+          "command": "open",
+          "target": "/Midilibre",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "31bf8a0c-a835-3cb1-eb31-123942c15788",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "8f7e7f2e-d09f-9362-6e8d-271dc838dd6e",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0d967b64-bd9a-78e8-6398-e4d553f85fe1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "968c791c-de60-3c18-272b-c3a8809374b2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "c7d5a453-4a2a-70ed-9705-2b06eb8d4075",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "4e00462d-47ac-850d-625a-e56efa40f7d0",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "af813124-9722-d2b6-8b1b-fe5bb211509a",
+          "comment": "",
+          "command": "open",
+          "target": "/macleans",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3a7a4deb-2592-0c06-9650-64d0647e7657",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "bae25b0d-910b-9552-8f2e-c29048b2d251",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ac834b0a-bdc5-fe3d-2b75-19d233e66e0d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "574da7a4-962e-598f-fae4-aa646276c4e3",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "18c6137d-cafa-4f91-1ee4-8f95788062a9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "a0ebb5bf-7b65-7322-bc29-b1e113d99bb4",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "205435b1-551f-da12-16fd-394a07f9e17a",
+          "comment": "",
+          "command": "open",
+          "target": "/M6",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ada40081-238a-027e-f152-5cd018b03c44",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "42e4da49-422b-6a89-a311-896741d86cc2",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "125f3748-ee35-8d2a-b752-2ecdf841c166",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2d01f4c0-9e14-3f4f-763a-09799916c019",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "e18899e5-2950-5a0f-af57-8bd813bc7161",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "4da6234f-3fd6-a9ae-e81f-9cfae4b1f3a1",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5ee81592-e0b9-9715-e5a6-7dbc13762bba",
+          "comment": "",
+          "command": "open",
+          "target": "/lobs",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "7629a7c8-736f-a542-ebde-f9318d1476fe",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "fd46ea64-12d4-6fa8-0e0f-6830c2f19671",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3c32e2f3-7c88-1e31-d342-73dae6e409d0",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "29587e2f-2e2f-b6e6-ffb9-685f0a11e3fa",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "ab3d8748-39e2-e776-b827-29919ece882a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "43009705-6c98-c542-fb7b-3dce14d214c2",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5f91795f-5ea6-f6ed-0871-700704541730",
+          "comment": "",
+          "command": "open",
+          "target": "/libe",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "735a3d30-9f10-db61-4477-af66fba7d2e6",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "25326713-293d-a683-aa0a-3b27fc3ac1a7",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d79e0d64-a178-bfb1-17b5-1a2faf87fa60",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9cf48a9f-f121-07f3-bab3-c806633adf09",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "ee0207b6-fb09-726e-b672-0e870e54f723",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "7288db0f-2446-7286-1996-1cc4d8ab5cdd",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a87811d5-0c84-a356-1b81-e6aee36bf966",
+          "comment": "",
+          "command": "open",
+          "target": "/LEXPRESS",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "88f7a5bb-6db2-92c3-818f-d572dfa99a0a",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "fdb13016-4fdb-039e-84e4-56c53dd78fad",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3209b59d-d3b4-682b-4de6-26f536e3c471",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b298dbe6-fbba-6c8b-07f3-04cd16fe54a9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "29d427ff-68a0-4356-0549-aff428a8cca0",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "61dee41f-dd3f-a1f3-2a9c-2ac0cf5d524f",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0ff57c92-9b0e-7ed1-8554-ac704c96435e",
+          "comment": "",
+          "command": "open",
+          "target": "/LEXPANSION",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "31ae6327-f21f-226a-3433-ff033d9673a7",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "ab625ff7-bdb3-8491-135f-dcea30825594",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6b98cc59-20af-9f30-12d3-dadb9cce41ee",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ec7904e1-9833-6aab-d229-1ebf1580f1b2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "71aa6bdd-07fe-d6f8-2fc3-99dfe2b5e745",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "2c08ee1e-6908-c160-202d-998502708992",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "31fe28e1-d023-d9f0-0ca2-bc70fecc881c",
+          "comment": "",
+          "command": "open",
+          "target": "/LesEchos",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "27a1d942-c577-74a9-0ae9-50d06d72d4bf",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "b9fd0639-b6b6-4e21-fd2f-1f66acf0c254",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "28437da5-62ce-1c1b-7f8a-263a7f206c99",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f836fdce-cece-8b65-b753-2948a543c819",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "f02afc27-ab2f-d7f0-ebe1-3a2c90e6cfdd",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "ae9886c2-cab9-d785-17b8-717b38d3763c",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "82130cc1-7cf5-2269-0d5f-0ced9338fad1",
+          "comment": "",
+          "command": "open",
+          "target": "/LePoint",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1f854c83-19ab-5d60-7652-d8773a749e18",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "836afe6a-4cd3-46e7-1c75-a159bd9843df",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ecf7a0bd-574d-a790-acb6-0ba2a3f2e798",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9582f4c1-77cd-37fd-643e-023578069fde",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "9ab9f90f-b27c-12ca-6dc2-d71c4044a32a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "c998088e-ae15-4511-a2c0-870f555b2fa6",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "aa932d16-4d38-0e1b-2a6f-270aa0e0f61f",
+          "comment": "",
+          "command": "open",
+          "target": "/lemondefr",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6fa7d89b-d66d-60c9-e773-f8bc2ababd12",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "13063093-f8b1-41f1-ed89-9fa58706a5c1",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "7d7467c9-bfb4-4038-6433-c3c5545fe36f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6f7714b2-e3da-a36e-e766-82e33723d8e0",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "c3f237ce-4046-d35e-f8c5-af7d352cec8d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "72f32fa5-358f-e6e6-f8d1-964e3d540840",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1df6e25a-206d-7128-b6a3-761434f06dba",
+          "comment": "",
+          "command": "open",
+          "target": "/LeMonde",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "073ef579-6630-9851-500c-ca75aa0f96a4",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "52236ebd-ce35-8520-0681-bbecbfd1b107",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "47d4db63-0016-f410-905d-cc6156b3c7a7",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c657d20c-1bcd-aa85-d4b8-00aeaa65d97f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "cf12c25a-4e3b-bc8e-5e2f-c2d801bf2f53",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "ecdf14ba-eb79-473a-5629-725dff61492b",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "93064d83-f7a0-bd6c-449a-679e58ada815",
+          "comment": "",
+          "command": "open",
+          "target": "/lemonde",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "95f3ad89-ed85-6f05-87ca-7911db30bdfc",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "b45496e5-9bb8-c3b2-a822-a8de839ceea8",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "52d35d81-b46e-96a6-4896-0bd67e5be113",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c2b96bdd-f458-ee5c-fa30-ec624526ebeb",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "7e8fd0db-6a5c-308e-f0bd-6c228fdc444d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "17019440-2ce3-8c50-00e5-583dc7435121",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "aefa20aa-62cb-73b6-dd88-d19b883a5e1d",
+          "comment": "",
+          "command": "open",
+          "target": "/LeFigaro",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b0219fec-d425-ae08-8003-7e77125069ad",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "6f774a6c-96e1-de82-dd8e-3a5a5ab503c5",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "28513a86-a021-d6fc-174c-2ec7e43f608c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "3d2e241f-efc3-553c-1c43-d39799ad54ca",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "d7f0b8ff-40ff-cb8c-4ea0-579568bbfa9e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "363bad2d-c586-9702-fefb-0bddcd653c69",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2bc763f7-884e-de8d-9863-ef2297a6ed61",
+          "comment": "",
+          "command": "open",
+          "target": "/Le",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ec693549-1e71-3944-b659-d90335aefee9",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "049ded63-cef3-a44f-1f5d-9d23d6df0057",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "9893aa0d-50fb-d9f7-1f8d-74f5ae8aa9e9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a9be0664-e808-7a6e-e5c5-cc14802063d7",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "8af58258-651a-13ee-f6c4-e5655a59f595",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "d0beb3b4-5720-244e-3c18-b23583e359fe",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2c9d9c2a-1e94-ffcf-17ab-b3440308208c",
+          "comment": "",
+          "command": "open",
+          "target": "/le",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cc6036d0-9362-00b7-33d0-4e01b3b88f12",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "bd3ae76a-c8bc-9501-e4bf-b874a40a2133",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4d6525f8-8c83-979b-e49c-f9c3d0cd4b5f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "1bd9a01b-62cd-07d0-35ca-e7a3da425c29",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "8d091aae-4253-de8f-4ba3-d820cf3ec517",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "03585973-0630-9565-555e-18b8a5f8bca2",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b514cf3f-bdc3-d90c-10fb-cf2a8ab037f7",
+          "comment": "",
+          "command": "open",
+          "target": "/LCI",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "812fd004-58e9-a8f9-b474-37f42ad63953",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "ffe036e7-1029-b654-4c7f-f234363b0aa5",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d4b42026-3ac9-e6b8-d66b-004f8517ae3a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "53437cc2-37cf-f4cd-7b78-356a65c57279",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "09ce9269-6422-ac89-7ef9-29bd10053035",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "ba71b8d1-b7f8-efd6-53c0-5950054d8010",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f3e587f9-a549-5e17-f296-d4d60d10e476",
+          "comment": "",
+          "command": "open",
+          "target": "/lavoixdunord",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ad98ff48-b853-b281-bcde-b6620a39a730",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "88c41878-3c1f-2cec-a112-c761e2ffe143",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0507e2dc-d3b5-40bd-0533-376aeeb453b8",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f55da4ef-5b4b-0b57-136c-0c41f020cfbc",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "288673fd-a131-a47b-5b83-83ec05813dec",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "3e710ebe-eca2-81f7-8bfc-f248c77b50e5",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "7b6c7b63-2b2e-4d87-28b8-99c8d76a0691",
+          "comment": "",
+          "command": "open",
+          "target": "/LaTribune",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e1821f2f-91ae-111a-7b05-9d35af33dddf",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "8a889d33-c114-93bd-8723-15e9522fa920",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a71860f6-6ef9-d237-615b-00298e519ef5",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "3995b9db-7be2-6e7c-62ef-598a7b30be4c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "4e3f7c5b-351b-c4e6-66b5-29b9c1940536",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "980d2085-6f99-7a3d-e3aa-450a14ac5630",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "11cdb39c-5012-a6da-d3d0-d32d52c3accd",
+          "comment": "",
+          "command": "open",
+          "target": "/latimes",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5b0523e9-2523-ecb2-3fc4-6a71f0dbafb9",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "0d1cf95e-f4c7-3523-4666-c5c99c0f2820",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f12077fd-fba7-770c-01e0-d14ee568b6f7",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "59ce1921-9fa6-f506-00cf-15bc60e94f2f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "78734a9c-bebb-6312-eca5-0ce622d54fdd",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "83a7cdb0-cf41-5e79-702a-f1d7e54f1617",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "9bb2a290-3df5-623c-066a-6c01921fd32a",
+          "comment": "",
+          "command": "open",
+          "target": "/laprovence",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "930c3880-cc41-ccee-d015-0790cd3a7e9c",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "8055f48e-b323-72e8-9045-7cd66278cb50",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ad57c657-8342-c4d6-b3e5-cbdf36ab95cc",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9e72cfec-53ca-cc07-509a-02fc50176a57",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "0639b64a-d1e3-0b59-1e91-cc3de8093be5",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "93e9afaf-2d06-0386-be8a-5da881d9749c",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "7f94737b-8e71-1be9-7567-7f3987c9e347",
+          "comment": "",
+          "command": "open",
+          "target": "/LaCroix",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a04d1c5e-d62e-1d51-2f36-475874b18944",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "74c2301c-bc74-2073-c6ce-1d9fad4d7cf5",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "644915a6-d48c-a46d-2177-4f3b4690a7c4",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "571c3bdd-6f07-a2d2-a92c-d960b9b270e2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "5eb152ba-2567-48b8-c21e-52fd6c37da36",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "72c15926-2431-37ed-43a7-ba60fa0dea6f",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f3816d07-49de-b75c-82d3-95e91cd53571",
+          "comment": "",
+          "command": "open",
+          "target": "/humanite",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6039a352-fdf0-95b1-657a-1bbf6a584db4",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "fff5e333-e6b6-dd57-fc0a-ef5d8f041b6d",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "570d4872-8ad3-097e-bcec-8e642e9c4c2a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "38b6e086-36df-6bbb-4b5c-63e60e530560",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "214dad5e-f54a-a8e0-64ec-43c957f2af5f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "afd7c4bd-e34e-3b8d-8da1-0c772698fa68",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "80062de6-2a4f-90e0-ff0d-d3f3f3f11459",
+          "comment": "",
+          "command": "open",
+          "target": "/HuffPostCanada",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "492804ac-567b-7b12-2011-94a8e96982cc",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "2ae3daf1-2fec-9310-e447-af410f9a489b",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "22cbb28d-b070-90ec-1b8a-5f3d9638a696",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "1801078b-ea0e-7d6c-f495-6534a6d16b86",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "361af9c9-5f9d-415b-ed53-0f61cfd3fcab",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "08b519a1-3098-a38d-464d-2edb4bb8e949",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "9c74d91e-6f1d-2bf8-abc0-2bbadb0aae20",
+          "comment": "",
+          "command": "open",
+          "target": "/HuffPost",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "8d93ba98-631b-99ed-6c77-f0503180f634",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "f542c56a-605f-318d-208a-5cd804d2c83b",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "90420d9f-5c25-ba2d-ebdb-30a67ea8f92a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "1550f6ca-b8c7-38c1-2c61-6c9107159499",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "24b0b5af-653e-0e0f-9788-0a832fe7b278",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "0e0e3290-b281-e773-4b0a-64c3ef9cb3d6",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c9f79646-d5f7-65ec-e642-7d3fad3d0845",
+          "comment": "",
+          "command": "open",
+          "target": "/hbo",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d400f4af-8507-fc17-41c9-d833004c1efb",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "983d33d4-e8ef-ba80-45a8-273f3433390d",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "fb131f02-df9b-c1ce-7efb-872efdb8649a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "796b8223-6f00-c656-7346-8e5e5dd8c80e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "e131ca8f-2338-f560-657b-19f46152bd8d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "b21b8d44-bfc7-920c-c84d-8755507063a6",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "329f7933-8286-0061-2276-148555616521",
+          "comment": "",
+          "command": "open",
+          "target": "/guardian",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d0190189-15bc-d046-be9f-18eb9b0aa4f4",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "e7c17317-8ab3-c106-2b1b-9050aa873c67",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4ecb66e8-9356-1de9-32cf-74e769766417",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "e26d20d1-7da0-fe6e-fb58-a4a185f52536",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "3502b162-563f-839e-89a3-b5e4151e57b4",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "8a7e79b7-5a19-6ac6-f8cc-53feef48983c",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b8843da9-2f74-7bd7-81e9-59fcc88ae8dc",
+          "comment": "",
+          "command": "open",
+          "target": "/googlenews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0ce9ef00-9a76-081c-ea98-3d7202a09440",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "d83a780b-9f99-8840-a103-083000c9a26d",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "fffd76e4-8b5f-0ec6-217c-cddbf16578e1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "4ff01854-104f-6043-af61-6b7392ec0721",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "8c8ecff5-95a2-80e1-b22b-b61dd164963b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "e7db268a-53d8-d31d-339d-50fd20527c35",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "22e6ac74-ecd7-bf3f-3770-9d245a258e4a",
+          "comment": "",
+          "command": "open",
+          "target": "/globeandmail",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6be92fcb-1f10-a248-b1bb-590544e35f5f",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "25a981ae-737e-9d64-e71b-b068b5f9790d",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f031060e-1169-5424-6444-701c933a7a53",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d8753d11-697c-58cb-cb4b-83f46fe0ecb8",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "3ef74b41-6eb2-9df6-5d54-c13a02470aad",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "77565ca1-a083-a491-3ad9-251d8d2fe484",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "48dab857-3b43-a2a1-47d7-7b27a8915583",
+          "comment": "",
+          "command": "open",
+          "target": "/globalnews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1253d641-7589-a134-b952-04d849d80f2d",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "4ae33d6f-c26d-6569-bbb4-30ab2569fca8",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b6dca184-d1dc-e1fa-8439-8ef037c8596e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6ab74dc8-0bae-7e16-6ced-57d545887b50",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "a8545c55-58fc-9d50-4201-c53434792ef2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "d7e3c15a-91b1-79f9-8a5d-4aee7a259cfb",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "da9b3dbd-b074-6f72-fd19-28ad45e24af3",
+          "comment": "",
+          "command": "open",
+          "target": "/GlobalNational",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "837a64bf-a4a4-c39e-62db-1d9e0e62231c",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "f677c964-53de-a97e-4e74-da97694c33a8",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "152f5612-19ab-1857-9fd7-789893d3609b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "7b480bf6-546a-6b15-e6d0-342fca065a15",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "b78b74a7-0e32-4b71-725e-5706dbe5167b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "5da13f14-b703-be3d-41c3-2fdae4274e98",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1ef1627c-a847-e768-99fd-090cfc0e9000",
+          "comment": "",
+          "command": "open",
+          "target": "/France5tv",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "8a1bb9ba-fc64-ef12-37cc-766fdf97674a",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "7889be0f-f7f4-6b33-d7b9-c306ae31c233",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2a202e32-c40c-8033-5001-e77a32f80802",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "3dfdbe96-1884-c20c-85af-b3ab380b4105",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "b03d420a-3c76-4b3e-8a09-27f210b839de",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "f06fc1b0-8433-1aae-225e-a55c10884744",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ef70e1c0-58bb-5a8b-7fb1-b27bf019b1cd",
+          "comment": "",
+          "command": "open",
+          "target": "/France3tv",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "77fad476-509c-86d2-9422-8e1896e23a02",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "2e31e3c1-4948-5823-3515-7082d1332a08",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3ce6d8ac-d08e-6fa8-0fe9-5b99ca73c39d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "0cb9b077-83e7-2d84-b0a1-4186e050b560",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "be6c85f7-fefc-f074-3ac2-1f5eed8a8ec1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "200ad251-1d79-2920-53b8-8bec8e218fbf",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "44a1fa34-0407-79a1-3cc8-d22563263f26",
+          "comment": "",
+          "command": "open",
+          "target": "/France2tv",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0e357f13-9445-dae6-6442-6b4372876118",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "f2295f33-49e9-4cba-3091-e4b14bfbc52d",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0fd96479-80ec-a07a-13c7-e0c4995e06b5",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "04f2ba66-4cfc-c93d-c5e8-ddb4b0358f69",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "0eca3e7d-52ad-b22b-e589-df2269f5b3d2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "904a2f8b-c108-2c30-2710-4904a3c6f0dd",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5b477638-f894-1407-8e40-1e736d1a5fcf",
+          "comment": "",
+          "command": "open",
+          "target": "/FRANCE24",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "80280a34-feeb-bb60-0d9d-e69d09260e1f",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "f3ea0198-58ae-923e-2836-02c8a2bdbe0c",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "98d079b1-6f9d-3af2-168b-4ef612690a67",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6cdaff31-6c30-dc21-cc96-58b5fb98194f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "8fecd9df-7556-2882-0faf-dc220a4880be",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "a2969a2b-52e3-44db-58f4-cc07163c3e7e",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3816fe72-7b7d-bc11-7db1-5d808fffd284",
+          "comment": "",
+          "command": "open",
+          "target": "/France24",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "608a9a15-7601-8c6c-fda7-3762a97b12d2",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "0bb05e71-4831-b041-89da-2531f55ab558",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "7cf14821-ddb2-fb7c-928a-3bd543ae1201",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "310f8a9f-c74f-cc52-58d9-d727503a97a2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "6140def2-9589-941f-e1b4-78a70d6c6cda",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "6b9223c7-844b-5a09-f525-23d80654aa58",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "65e298f3-b06e-0a78-6a7b-4f9a4eabbfec",
+          "comment": "",
+          "command": "open",
+          "target": "/foxnews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2c5ffc6d-2ca7-6e57-d5e5-6c6471478e8d",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "74b41f0a-0789-176c-ab88-00d0346f0c49",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "096a3765-7df5-c7b0-4174-8f8844149823",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "2f8fc2ed-4bf7-6663-8f48-811f2b863965",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "3afe22d9-84dc-8c97-6eed-331477e4d296",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "72e3ddef-dddf-1a52-d304-79adfc919bba",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "21ae293b-5e15-6846-2a02-c00a174feeab",
+          "comment": "",
+          "command": "open",
+          "target": "/FigaroTech",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4e30ea75-c6a3-fc86-d0e4-66d70aea90dd",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "4dd97851-b035-9081-967a-48dc1c470284",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1137ce15-4d61-7416-a3b2-5130f86f5d3f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9fb8e372-a175-c476-699f-b8297ea9df88",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "3cc1e1e2-7fb3-047b-6164-a9825f509727",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "396a081c-638e-740e-5872-a7c194edf6fa",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "164ec8d3-21ad-f28c-67b4-3d11f7f36419",
+          "comment": "",
+          "command": "open",
+          "target": "/FigaroPolitique",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "750c9107-a53e-7ef9-d34d-e440d7ba6f74",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "97afaf6d-8101-fb79-7b77-d2da25fd7d64",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "03b98e0d-81e1-2dbb-cecf-435f3c4c1bad",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "47a3c944-cd43-8617-1710-f9c7d31f58d5",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "48327fcf-6b00-ec93-f482-c8313d1abf2f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "5c95255c-3559-3f20-7733-ecd087f459af",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "bc8f6d76-d219-d8ac-35b7-53c105e548fd",
+          "comment": "",
+          "command": "open",
+          "target": "/Figaro",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ae6bc951-fc89-9a7c-5ff3-d1cc7fc265ff",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "d0ba1828-028a-8916-78bc-26a2e25f3a91",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "bd7eefeb-ab89-7a25-f1f5-5d2600df5973",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ec995352-772b-4e72-b3e1-35ccd5dab7ff",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "8fe140b8-a744-7c76-f340-df94a5f08898",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "8e50b362-4dc5-7365-7c30-0aa77558a517",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c06d5d3e-cafd-aa2f-dc1d-f9eb98dea8c2",
+          "comment": "",
+          "command": "open",
+          "target": "/Europe1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "216a9c58-2889-6b3a-da6e-12139dcf069a",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "4855c79a-c883-989a-84a5-b2a8547ada9d",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d94e4787-83ee-158d-2301-e58fb71b0d0d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d0505e16-6088-8f3e-02d1-9de47691175f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "558c7494-2d80-17ab-3a40-2481e30be069",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "f591a598-092a-2614-08bf-d71de6a89f91",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "42fa85ea-b78f-e98c-b339-96483cbcacf6",
+          "comment": "",
+          "command": "open",
+          "target": "/ELLEfrance",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d14c33f0-22ff-8a35-5f65-4cc1568e3191",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "5d9792a0-9e10-e0da-18a8-42f173ccea4c",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b22ce012-ce5c-c791-5070-e2296bcb9324",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a9a80407-4f25-52e5-596b-b857e0431793",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "75af007a-7e62-d234-00cf-0ca0bbb0744d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "6ee91d15-4123-c326-fbda-58f1153ae70c",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6bae4e59-1d1c-89c2-cfd5-a855424596a9",
+          "comment": "",
+          "command": "open",
+          "target": "/CTVNews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c2426bf6-a85a-3970-d9ec-7a872543bdc6",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "6c4700e7-0901-f731-5b60-9f4d98d180b6",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a9faaf43-25f7-b0b1-de74-9130a33a638c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "416de218-2afd-eca7-3a4b-66fa0822a107",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "7644c46b-1349-c2ce-4e96-8d8c78015421",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "b63513fc-3e64-19b8-070d-6eacbfb7a7bc",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "dec489d3-ecf6-0542-13ab-f3679c1b7439",
+          "comment": "",
+          "command": "open",
+          "target": "/CTVNationalNews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f5fd45f6-ebed-2ca3-0c2b-6f3ba4220296",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "eeb9d1ee-753c-102b-d02f-a3b84b507dec",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "7ab53598-b2ba-e8cf-e597-d2cb7d0660f1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ca785ca8-8562-81fd-19ed-25bd47ebe1bb",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "6fa383ad-886c-3cdc-02d0-09a4a26092c9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "ee10b1cf-b2d8-1389-3734-60cc8d11a0fa",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "fa1d17b6-f163-1f85-7f3c-c8917c58deb9",
+          "comment": "",
+          "command": "open",
+          "target": "/cnnpolitics",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "96ee5b5a-f2da-fbe3-f98f-3737280faff1",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "8bed0e30-9843-dd65-2cf1-6e9beaf897de",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3172a655-0a22-c41f-3421-00d4b94df670",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "6d61d78d-536b-c276-f510-69e983471101",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "82e159f8-7d9d-25ce-ef29-5721979124df",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "120efefa-2996-0273-30b0-3c12a13640ec",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "60dbff0f-746c-0fd2-093b-7e41fc542a63",
+          "comment": "",
+          "command": "open",
+          "target": "/cnn",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "85ef8aeb-fe38-ce6a-e5df-52ed41bb84b8",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "97126ae9-c4b6-8673-2cff-095bab3106db",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1726d885-ba46-10b3-950c-7a8c21e4ce4d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "9158c5b6-9242-27ad-1669-5839f40f23b3",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "696876d9-6d95-2e71-b601-02aa49e66447",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "e6a4bc30-74d9-f399-2aff-00dd617a1c86",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "abb3c6e9-647c-49b7-5329-db418f03dd30",
+          "comment": "",
+          "command": "open",
+          "target": "/CNET",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "38081104-3c6a-65da-dd74-3e966d94cc3c",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "83c07ce5-b932-ccca-045b-93af98576327",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "50d9cf22-e371-ac1b-ec4e-cd072621dbbf",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "135c9e5d-5a42-4bfd-463c-330fa92acc86",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "9d741711-7bbb-01cb-6114-96e4ebc2a6e2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "f951d37f-4ffb-c7e4-d28d-0934af0b02c1",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0ff64782-3ead-e104-d35a-b22ec3195f83",
+          "comment": "",
+          "command": "open",
+          "target": "/CNBC",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d5905196-d2d9-c18a-32ac-cb2d72965255",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "a462d511-97cc-4134-cf70-26a09db604b8",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5e9e862d-2d7b-afe8-bc34-dd0172d66f3d",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ed1c5c08-bab6-ffb6-1c4f-0568abe9237b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "ebff12a7-f3f7-e4da-edb2-e898ba32cef9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "4198e900-169a-7202-cf9f-412b277f03d2",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "5f5a6110-83d6-1445-8237-0004d21e45e9",
+          "comment": "",
+          "command": "open",
+          "target": "/CBSNews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c2680c80-e251-90e0-108d-1c58b2aebd6d",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "588715ae-6ed8-7d22-a383-be6215fda0b0",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1aaa575a-4117-2d81-80c9-4f4966ec62d3",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "bc56937a-ec96-1111-e9ea-1fcd237e7a12",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "5afe6cec-a203-6d56-9459-d70f1fd916b6",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "82e8eb21-e4a7-6d19-4699-312c21b30a02",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "fa5d3c4e-07ee-d7d0-3de8-273c1502f210",
+          "comment": "",
+          "command": "open",
+          "target": "/CBSEveningNews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "38ab68d4-f896-076a-5290-146a71294be0",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "e3c0d44f-1b7c-1ac8-1a10-45bfbddd5844",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b95821a6-d107-566c-d155-a85ef2656613",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "40ec469d-0e41-b893-a091-1e85b2ab4a75",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "50c3d038-92d1-7ed8-686a-1126736927b5",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "762232aa-17f0-9802-8d9f-1876b3e7a325",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2225330b-16a2-0a42-6d6e-d8d7fd6d4436",
+          "comment": "",
+          "command": "open",
+          "target": "/CBCNews",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "80db686a-d389-2085-cd2b-c2317962cb80",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "401aebc6-0443-9413-ef17-08823f2b9a1f",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4a0be15b-220b-389c-ad05-54765311900a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "111057a2-0453-65f2-5547-9072ca03e1a2",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "98d6a390-8157-a375-4fe2-923eaf9c40de",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "e7dffe86-891a-56cc-eea5-f4c491296daa",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "afe5b124-f83b-20b3-e26c-c17071b4b5b9",
+          "comment": "",
+          "command": "open",
+          "target": "/CBCAlerts",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ccebb206-f923-0788-d77f-a9b18db01125",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "fe1ae774-91b6-8ea3-4abe-05adc75be43a",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "dfbe3af0-a13e-2a87-29de-d8bb4f029331",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "8afc9c5b-b79a-7502-0f5c-8264f4db407c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "52c16e9a-32f2-d3e7-60ef-d4d8b8e73e47",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "2a52d32a-5a5f-38a0-3848-d0e11e22364e",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e0215c9d-4141-283f-b528-29aae22abc27",
+          "comment": "",
+          "command": "open",
+          "target": "/CBC",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "203a3a1d-1588-3f1d-ce88-1aa96205b43d",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "5c3a86b8-5ec6-e906-9429-753631f5550d",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e4c3a88b-16e8-88c5-3fe1-12b82795c6af",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5cf1ec73-60ef-bf61-3450-8b5e9fe60ed8",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "b91e0c33-d041-a255-c0b2-1de44b4dc1ff",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "44c3c663-f903-2b1d-4704-af978a66e858",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1a8539d3-0d77-a26e-964e-9b3d437c74e7",
+          "comment": "",
+          "command": "open",
+          "target": "/Business",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d9fb8c8e-c923-3ad4-eef2-723d21bd185a",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "1111c4c9-a7c7-5588-5720-aeb45de0e8ca",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "fe08c88f-0e6a-0935-644b-2c849a3081d9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "7e734136-626b-e71f-03a6-81021b20dc0e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "59ada709-19b4-bbef-8f07-ac7b7a03bb27",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "1c7ed49e-6a6c-2d5e-a821-fac48c32ee44",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f27a1d6f-2882-1c24-52b8-ef63b5a36c00",
+          "comment": "",
+          "command": "open",
+          "target": "/BreitbartLondon",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "46645aea-c0a1-9fa1-4980-b0931f2a2e5c",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "5d0c6719-c888-76a4-af61-c9b47afb7704",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "32d9f9b4-a7ce-aea3-7bdb-a9027791fd27",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "4e4a928a-0f97-2277-b5ed-9640f6ed244e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "25dfac09-fb50-718e-c45d-e1ad1ea2fe1e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "e82aa264-29b0-a46d-82b7-7ce01062b88e",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cbf95bb6-d7b2-8ed6-03d8-89392eca0413",
+          "comment": "",
+          "command": "open",
+          "target": "/bpolitics",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "53dc78ef-3cc2-df9d-3f3a-a3997eae6162",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "c2f752a5-33a8-8c6b-cb9c-e4d89f3376b7",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "98f168b2-6486-79cb-be19-8b78333d0f55",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "db942777-41d2-bb6b-0c4f-882657c5400b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "16e6ecc3-c8bc-40dc-867e-048fa8f3598e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "78608f8c-9a9f-71e5-fd36-8b36dca521f9",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "47b47fd9-f956-ae98-4a54-54543ddb1319",
+          "comment": "",
+          "command": "open",
+          "target": "/Bostonherald",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c89afaf6-c764-296c-0675-18863da563e1",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "28b60b5c-113f-9338-f6b2-2d4b45903321",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e2407122-580b-1194-138a-40e0e01171a5",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "32f873f0-ea25-e4da-c106-d2b29920e376",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "cb64f641-8164-03d6-76a4-14b4d157b2e4",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "d25a8840-0198-37fc-975c-200486e178f2",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ea9ecaa7-a5ad-6f40-9df4-bb81d625126a",
+          "comment": "",
+          "command": "open",
+          "target": "/bopinion",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1171ed54-11c6-40de-fa2c-330860d17d94",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "070c212b-c8b8-9b37-48eb-35a3467a6172",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "98b0b649-6770-962c-eb5e-ef8172380ecb",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b4552677-0b18-8cb1-b6d6-c9dadb3af97f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "aabec1ca-e421-c424-f576-1b59d8b5280f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "1f2b69dd-ad24-3e59-0424-e2999e52bab1",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b0b76f64-6379-93aa-0290-bfa2ef57b301",
+          "comment": "",
+          "command": "open",
+          "target": "/Bloomberg",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "72fcb9ad-da0e-1d5a-677f-a6fd018a26a2",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "68f56abc-78fe-7996-bf98-1d94eeb74eac",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e5ebe170-4855-8aa2-149a-49f9bdac9177",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "85e61c6a-4b62-3502-2283-b276bdc62eb0",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "208dfa31-419e-744d-c76a-53642e9cbc12",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "d129a506-c8d1-2449-deb6-c2d2952ccc4e",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c3c8996b-711f-29d8-cf72-bdf8f89e0686",
+          "comment": "",
+          "command": "open",
+          "target": "/BFMTV",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "176fa0c6-5c9d-68df-b068-41e87e7ade9b",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "95f8059d-f8d4-95f3-cd00-025f0b512c3f",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f40b3caf-b5bc-0eb0-b960-12b62fefaa54",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f25a2193-71a5-cdb2-adda-4a9c5a7f5d5f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "4239023c-ea6e-e8df-54ea-db74e63c66dd",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "e9ccae56-39f6-3e99-8a3d-47e26a13b43a",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2d7ab302-67b6-a8e5-4271-9ebb953de771",
+          "comment": "",
+          "command": "open",
+          "target": "/BBCBreaking",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ab466d73-74b3-0268-68fb-b831a2fc7e40",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "3271a136-39c1-ee26-c823-a6859bdea84c",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "fd6ed656-08cc-8e86-4b77-c4bbaeb40645",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f4855df3-b4cc-3aaf-4658-e390cde2678a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "cbda6c52-818e-2d73-1be2-e74a746b3f13",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "3d92601c-b459-a17f-2733-b77424f5c068",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "41683a0f-3ad9-72b7-e957-d8e9cd65c6da",
+          "comment": "",
+          "command": "open",
+          "target": "/bbc",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6d74d018-2950-9e30-ed39-a45ac9ff0925",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "3a3a7f21-fe03-e139-a81f-5402db95d4c2",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "545cdc6d-5381-e617-09c9-54a0965da8e9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "4dc7b34d-8c2a-1ad7-9692-c431d52ec357",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "edece265-b4a3-cea3-6854-3039a9994b4b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "28b46a77-86ce-e197-0441-beef8fe610db",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b33bfd06-ba70-9946-0ff9-e5d65c9e70fd",
+          "comment": "",
+          "command": "open",
+          "target": "/AP",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6ab97947-9b79-de89-4b0b-e961f6b43f81",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "ac325443-975e-bcda-241b-18d4a0c18565",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "15a8c1d1-a62c-6b62-735c-6864d1e5a25a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "079263ba-c46c-af9e-9efc-465e82b43d8a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "35908386-290c-9c55-f2c7-38022e75eb3e",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "3d1abe78-7d2e-0cf9-22f8-76306004e9bf",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "4edede1e-6d55-904d-0ef5-15a58b9c8129",
+          "comment": "",
+          "command": "open",
+          "target": "/abc",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c4e50711-0099-095b-8983-1214b2253cee",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "4fe479dd-9d97-0be9-7089-2e3868548086",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "591e4d76-241e-1d25-82d4-c5d15a39dee9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "12c726b9-31b8-7491-1dd9-5310d223a034",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "649d8c02-e206-b8cf-53c6-ccc3d818b037",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "417e45ab-6d8d-45cd-bcaa-3c45d1154b5f",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "5622a01c-08e2-7077-20ef-36835873d72e",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "38a7c764-2244-40ef-8438-a03f1a536ef2"
+      ]
+    }
+  ],
+  "urls": [
+    "https://twitter.com/"
+  ],
+  "plugins": []
+}

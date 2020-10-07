@@ -1,0 +1,82 @@
+{
+  "id": "d87afda3-79c3-4eba-b502-8823f73a9c27",
+  "version": "2.0",
+  "name": "Delete Twitter",
+  "url": "https://twitter.com",
+  "tests": [
+    {
+      "id": "38a7c764-2244-40ef-8438-a03f1a536ef2",
+      "name": "Block on twitter",
+      "commands": [
+        {
+          "id": "f7866d53-c4b3-42a2-8eaa-2f3f77b47a84",
+          "comment": "",
+          "command": "open",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3cab46b1-98d4-4f6e-95bd-bdd736f83364",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "8aaef8f3-5c46-4079-b52d-343b50e0d49b",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "f3d04594-1264-482f-9d1a-8bf82f0660e9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [ "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9", "css:finder" ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "cacc45ba-5cfd-40f7-ade5-02e28d8d7930",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "1d6a728d-a1e5-4eec-bb45-ab544b562edd",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "92885239-1ade-43e6-a21e-f3d1e4ef7b89",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "ef77ec97-3992-4ab3-8acc-bee419b335c6",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [ "38a7c764-2244-40ef-8438-a03f1a536ef2" ]
+    }
+  ],
+  "urls": [ "https://twitter.com/" ],
+  "plugins": []
+}

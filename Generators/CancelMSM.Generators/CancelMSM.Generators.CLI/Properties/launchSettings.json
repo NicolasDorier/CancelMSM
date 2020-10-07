@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CancelMSM.Generators.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "selenium side -f \"../../../../../../Twitter.md\""
+    }
+  }
+}
