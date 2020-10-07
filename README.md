@@ -19,12 +19,14 @@ This repository will not make a distinction between "legit mainstream media" and
 This repository will include more and more tooling to make your job easier. For now it only contains:
 
 * [twitter](twitter.md), a list of twitter handle tied to mainstream media.
+* [BlockTwitter.side](BlockTwitter.side), automatically generated, a selenium IDE project to automatically block. See [docs](docs/BlockTwitter.md).
 
 ## FAQ
 
 > How to contribute?
 
 Just make a pull request to add a mainstream media you want to cancel.
+Edit only [twitter](twitter.md), we will generate the other files for you.
 
 > Which media should be cancelled?
 
