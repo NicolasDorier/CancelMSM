@@ -97,3 +97,4 @@
 - [@CBCAlerts](https://twitter.com/CBCAlerts)
 - [@OttawaCitizen](https://twitter.com/OttawaCitizen)
 - [@GlobalNational](https://twitter.com/GlobalNational)
+- [@lastweektonight](https://twitter.com/LastWeekTonight)
