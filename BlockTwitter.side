@@ -307,7 +307,7 @@
           "id": "ca0430ec-50d1-6cf7-7792-abac9f3f0fad",
           "comment": "",
           "command": "open",
-          "target": "/vicenews",
+          "target": "/vrtnws",
           "targets": [],
           "value": ""
         },
@@ -366,7 +366,7 @@
           "id": "a8cb0f8a-6dba-1809-9407-115901dc035a",
           "comment": "",
           "command": "open",
-          "target": "/usnews",
+          "target": "/vicenews",
           "targets": [],
           "value": ""
         },
@@ -425,7 +425,7 @@
           "id": "6cb51a8b-ccbc-038f-014e-537067b3a164",
           "comment": "",
           "command": "open",
-          "target": "/usatoday",
+          "target": "/usnews",
           "targets": [],
           "value": ""
         },
@@ -484,7 +484,7 @@
           "id": "6f5e415d-22a5-13a7-491e-e5f9810287fa",
           "comment": "",
           "command": "open",
-          "target": "/TV5MONDE",
+          "target": "/usatoday",
           "targets": [],
           "value": ""
         },
@@ -543,7 +543,7 @@
           "id": "ac521a23-3536-9df5-2a25-3746fb42b11c",
           "comment": "",
           "command": "open",
-          "target": "/TorontoStar",
+          "target": "/TV5MONDE",
           "targets": [],
           "value": ""
         },
@@ -602,7 +602,7 @@
           "id": "acfe3437-d633-5c9f-8046-c69c00678dac",
           "comment": "",
           "command": "open",
-          "target": "/time",
+          "target": "/TorontoStar",
           "targets": [],
           "value": ""
         },
@@ -661,7 +661,7 @@
           "id": "ba269b04-fd43-8a57-6842-4fda64c1b969",
           "comment": "",
           "command": "open",
-          "target": "/TheTorontoSun",
+          "target": "/time",
           "targets": [],
           "value": ""
         },
@@ -720,7 +720,7 @@
           "id": "da8af288-6110-50b4-627a-3ef1a8bbb24e",
           "comment": "",
           "command": "open",
-          "target": "/thedailybeast",
+          "target": "/tijd",
           "targets": [],
           "value": ""
         },
@@ -779,7 +779,7 @@
           "id": "d5ac3a9b-8fcd-859c-4352-95a04a7f5e76",
           "comment": "",
           "command": "open",
-          "target": "/TF1",
+          "target": "/TheTorontoSun",
           "targets": [],
           "value": ""
         },
@@ -838,7 +838,7 @@
           "id": "4efc1958-92f0-f74b-7f76-422ccf90d219",
           "comment": "",
           "command": "open",
-          "target": "/sudouest",
+          "target": "/thedailybeast",
           "targets": [],
           "value": ""
         },
@@ -897,7 +897,7 @@
           "id": "ff9b2fc0-ed73-2458-e93c-70146ee5215c",
           "comment": "",
           "command": "open",
-          "target": "/RTLFrance",
+          "target": "/TF1",
           "targets": [],
           "value": ""
         },
@@ -956,7 +956,7 @@
           "id": "c4e9ad42-efc1-5112-43d2-23ab614fd4a5",
           "comment": "",
           "command": "open",
-          "target": "/rt",
+          "target": "/sudouest",
           "targets": [],
           "value": ""
         },
@@ -1015,7 +1015,7 @@
           "id": "954a8e36-e9f5-17d1-c5fd-f1e114e46cce",
           "comment": "",
           "command": "open",
-          "target": "/radiofrance",
+          "target": "/RTLFrance",
           "targets": [],
           "value": ""
         },
@@ -1074,7 +1074,7 @@
           "id": "e20c2b9b-64bc-8f4a-00d5-cf3f32dff915",
           "comment": "",
           "command": "open",
-          "target": "/politico",
+          "target": "/rt",
           "targets": [],
           "value": ""
         },
@@ -1133,7 +1133,7 @@
           "id": "0d546721-002f-ee8a-3d88-088f114e01a8",
           "comment": "",
           "command": "open",
-          "target": "/ParisMatch",
+          "target": "/radiofrance",
           "targets": [],
           "value": ""
         },
@@ -1192,7 +1192,7 @@
           "id": "d03548ef-3bd2-4e8f-2e78-0a8f91576388",
           "comment": "",
           "command": "open",
-          "target": "/OuestFrance",
+          "target": "/politico",
           "targets": [],
           "value": ""
         },
@@ -1251,7 +1251,7 @@
           "id": "a0860634-d3fb-5252-a29f-55f8f53f468e",
           "comment": "",
           "command": "open",
-          "target": "/OttawaCitizen",
+          "target": "/ParisMatch",
           "targets": [],
           "value": ""
         },
@@ -1310,7 +1310,7 @@
           "id": "e1f7695b-4462-ed38-c63e-9083c7d2c35b",
           "comment": "",
           "command": "open",
-          "target": "/NYTimes",
+          "target": "/OuestFrance",
           "targets": [],
           "value": ""
         },
@@ -1369,7 +1369,7 @@
           "id": "855e339b-51f3-6fbf-1d50-12586e57f6cc",
           "comment": "",
           "command": "open",
-          "target": "/nypost",
+          "target": "/OttawaCitizen",
           "targets": [],
           "value": ""
         },
@@ -1428,7 +1428,7 @@
           "id": "a315ed0c-c7bd-a0c6-384f-f913400b3695",
           "comment": "",
           "command": "open",
-          "target": "/npr",
+          "target": "/NYTimes",
           "targets": [],
           "value": ""
         },
@@ -1487,7 +1487,7 @@
           "id": "254efb4d-a414-ef83-9b4b-4a4a1696f250",
           "comment": "",
           "command": "open",
-          "target": "/Nice",
+          "target": "/nypost",
           "targets": [],
           "value": ""
         },
@@ -1546,7 +1546,7 @@
           "id": "a61168ad-cb7a-ca84-c4d7-cad518ef4d57",
           "comment": "",
           "command": "open",
-          "target": "/NewYorker",
+          "target": "/npr",
           "targets": [],
           "value": ""
         },
@@ -1605,7 +1605,7 @@
           "id": "4a10bb0a-d106-fbd8-acd8-7f19698abac1",
           "comment": "",
           "command": "open",
-          "target": "/newsweek",
+          "target": "/Nieuwsblad",
           "targets": [],
           "value": ""
         },
@@ -1664,7 +1664,7 @@
           "id": "9a23ad06-72dd-f92c-3826-856ca19693a2",
           "comment": "",
           "command": "open",
-          "target": "/nbcnightlynews",
+          "target": "/Nice",
           "targets": [],
           "value": ""
         },
@@ -1723,7 +1723,7 @@
           "id": "da032b0c-00ce-1ed9-3080-8094a7298e76",
           "comment": "",
           "command": "open",
-          "target": "/nbcnews",
+          "target": "/NewYorker",
           "targets": [],
           "value": ""
         },
@@ -1782,7 +1782,7 @@
           "id": "93d9306f-578d-f1f7-2def-bce0d8b2d5b1",
           "comment": "",
           "command": "open",
-          "target": "/msnbc",
+          "target": "/newsweek",
           "targets": [],
           "value": ""
         },
@@ -1841,7 +1841,7 @@
           "id": "cfd51420-6506-a232-a274-01ba16df6db8",
           "comment": "",
           "command": "open",
-          "target": "/Midilibre",
+          "target": "/nbcnightlynews",
           "targets": [],
           "value": ""
         },
@@ -1900,7 +1900,7 @@
           "id": "af813124-9722-d2b6-8b1b-fe5bb211509a",
           "comment": "",
           "command": "open",
-          "target": "/macleans",
+          "target": "/nbcnews",
           "targets": [],
           "value": ""
         },
@@ -1959,7 +1959,7 @@
           "id": "205435b1-551f-da12-16fd-394a07f9e17a",
           "comment": "",
           "command": "open",
-          "target": "/M6",
+          "target": "/msnbc",
           "targets": [],
           "value": ""
         },
@@ -2018,7 +2018,7 @@
           "id": "5ee81592-e0b9-9715-e5a6-7dbc13762bba",
           "comment": "",
           "command": "open",
-          "target": "/lobs",
+          "target": "/Midilibre",
           "targets": [],
           "value": ""
         },
@@ -2077,7 +2077,7 @@
           "id": "5f91795f-5ea6-f6ed-0871-700704541730",
           "comment": "",
           "command": "open",
-          "target": "/libe",
+          "target": "/macleans",
           "targets": [],
           "value": ""
         },
@@ -2136,7 +2136,7 @@
           "id": "a87811d5-0c84-a356-1b81-e6aee36bf966",
           "comment": "",
           "command": "open",
-          "target": "/LEXPRESS",
+          "target": "/M6",
           "targets": [],
           "value": ""
         },
@@ -2195,7 +2195,7 @@
           "id": "0ff57c92-9b0e-7ed1-8554-ac704c96435e",
           "comment": "",
           "command": "open",
-          "target": "/LEXPANSION",
+          "target": "/lobs",
           "targets": [],
           "value": ""
         },
@@ -2254,7 +2254,7 @@
           "id": "31fe28e1-d023-d9f0-0ca2-bc70fecc881c",
           "comment": "",
           "command": "open",
-          "target": "/LesEchos",
+          "target": "/libe",
           "targets": [],
           "value": ""
         },
@@ -2313,7 +2313,7 @@
           "id": "82130cc1-7cf5-2269-0d5f-0ced9338fad1",
           "comment": "",
           "command": "open",
-          "target": "/LePoint",
+          "target": "/LEXPRESS",
           "targets": [],
           "value": ""
         },
@@ -2372,7 +2372,7 @@
           "id": "aa932d16-4d38-0e1b-2a6f-270aa0e0f61f",
           "comment": "",
           "command": "open",
-          "target": "/lemondefr",
+          "target": "/LEXPANSION",
           "targets": [],
           "value": ""
         },
@@ -2431,7 +2431,7 @@
           "id": "1df6e25a-206d-7128-b6a3-761434f06dba",
           "comment": "",
           "command": "open",
-          "target": "/LeMonde",
+          "target": "/LesEchos",
           "targets": [],
           "value": ""
         },
@@ -2490,7 +2490,7 @@
           "id": "93064d83-f7a0-bd6c-449a-679e58ada815",
           "comment": "",
           "command": "open",
-          "target": "/lemonde",
+          "target": "/LePoint",
           "targets": [],
           "value": ""
         },
@@ -2549,7 +2549,7 @@
           "id": "aefa20aa-62cb-73b6-dd88-d19b883a5e1d",
           "comment": "",
           "command": "open",
-          "target": "/LeFigaro",
+          "target": "/lemondefr",
           "targets": [],
           "value": ""
         },
@@ -2608,7 +2608,7 @@
           "id": "2bc763f7-884e-de8d-9863-ef2297a6ed61",
           "comment": "",
           "command": "open",
-          "target": "/Le",
+          "target": "/LeMonde",
           "targets": [],
           "value": ""
         },
@@ -2667,7 +2667,7 @@
           "id": "2c9d9c2a-1e94-ffcf-17ab-b3440308208c",
           "comment": "",
           "command": "open",
-          "target": "/le",
+          "target": "/lemonde",
           "targets": [],
           "value": ""
         },
@@ -2726,7 +2726,7 @@
           "id": "b514cf3f-bdc3-d90c-10fb-cf2a8ab037f7",
           "comment": "",
           "command": "open",
-          "target": "/LCI",
+          "target": "/LeFigaro",
           "targets": [],
           "value": ""
         },
@@ -2785,7 +2785,7 @@
           "id": "f3e587f9-a549-5e17-f296-d4d60d10e476",
           "comment": "",
           "command": "open",
-          "target": "/lavoixdunord",
+          "target": "/Le",
           "targets": [],
           "value": ""
         },
@@ -2844,7 +2844,7 @@
           "id": "7b6c7b63-2b2e-4d87-28b8-99c8d76a0691",
           "comment": "",
           "command": "open",
-          "target": "/LaTribune",
+          "target": "/le",
           "targets": [],
           "value": ""
         },
@@ -2903,7 +2903,7 @@
           "id": "11cdb39c-5012-a6da-d3d0-d32d52c3accd",
           "comment": "",
           "command": "open",
-          "target": "/latimes",
+          "target": "/LCI",
           "targets": [],
           "value": ""
         },
@@ -2962,7 +2962,7 @@
           "id": "9bb2a290-3df5-623c-066a-6c01921fd32a",
           "comment": "",
           "command": "open",
-          "target": "/laprovence",
+          "target": "/lavoixdunord",
           "targets": [],
           "value": ""
         },
@@ -3021,7 +3021,7 @@
           "id": "7f94737b-8e71-1be9-7567-7f3987c9e347",
           "comment": "",
           "command": "open",
-          "target": "/LaCroix",
+          "target": "/LaTribune",
           "targets": [],
           "value": ""
         },
@@ -3080,7 +3080,7 @@
           "id": "f3816d07-49de-b75c-82d3-95e91cd53571",
           "comment": "",
           "command": "open",
-          "target": "/humanite",
+          "target": "/latimes",
           "targets": [],
           "value": ""
         },
@@ -3139,7 +3139,7 @@
           "id": "80062de6-2a4f-90e0-ff0d-d3f3f3f11459",
           "comment": "",
           "command": "open",
-          "target": "/HuffPostCanada",
+          "target": "/LastWeekTonight",
           "targets": [],
           "value": ""
         },
@@ -3198,7 +3198,7 @@
           "id": "9c74d91e-6f1d-2bf8-abc0-2bbadb0aae20",
           "comment": "",
           "command": "open",
-          "target": "/HuffPost",
+          "target": "/lastweektonight",
           "targets": [],
           "value": ""
         },
@@ -3257,7 +3257,7 @@
           "id": "c9f79646-d5f7-65ec-e642-7d3fad3d0845",
           "comment": "",
           "command": "open",
-          "target": "/hbo",
+          "target": "/laprovence",
           "targets": [],
           "value": ""
         },
@@ -3316,7 +3316,7 @@
           "id": "329f7933-8286-0061-2276-148555616521",
           "comment": "",
           "command": "open",
-          "target": "/guardian",
+          "target": "/LaCroix",
           "targets": [],
           "value": ""
         },
@@ -3375,7 +3375,7 @@
           "id": "b8843da9-2f74-7bd7-81e9-59fcc88ae8dc",
           "comment": "",
           "command": "open",
-          "target": "/googlenews",
+          "target": "/Knack",
           "targets": [],
           "value": ""
         },
@@ -3434,7 +3434,7 @@
           "id": "22e6ac74-ecd7-bf3f-3770-9d245a258e4a",
           "comment": "",
           "command": "open",
-          "target": "/globeandmail",
+          "target": "/humanite",
           "targets": [],
           "value": ""
         },
@@ -3493,7 +3493,7 @@
           "id": "48dab857-3b43-a2a1-47d7-7b27a8915583",
           "comment": "",
           "command": "open",
-          "target": "/globalnews",
+          "target": "/HuffPostCanada",
           "targets": [],
           "value": ""
         },
@@ -3552,7 +3552,7 @@
           "id": "da9b3dbd-b074-6f72-fd19-28ad45e24af3",
           "comment": "",
           "command": "open",
-          "target": "/GlobalNational",
+          "target": "/HuffPost",
           "targets": [],
           "value": ""
         },
@@ -3611,7 +3611,7 @@
           "id": "1ef1627c-a847-e768-99fd-090cfc0e9000",
           "comment": "",
           "command": "open",
-          "target": "/France5tv",
+          "target": "/HLN",
           "targets": [],
           "value": ""
         },
@@ -3670,7 +3670,7 @@
           "id": "ef70e1c0-58bb-5a8b-7fb1-b27bf019b1cd",
           "comment": "",
           "command": "open",
-          "target": "/France3tv",
+          "target": "/hbo",
           "targets": [],
           "value": ""
         },
@@ -3729,7 +3729,7 @@
           "id": "44a1fa34-0407-79a1-3cc8-d22563263f26",
           "comment": "",
           "command": "open",
-          "target": "/France2tv",
+          "target": "/guardian",
           "targets": [],
           "value": ""
         },
@@ -3788,7 +3788,7 @@
           "id": "5b477638-f894-1407-8e40-1e736d1a5fcf",
           "comment": "",
           "command": "open",
-          "target": "/FRANCE24",
+          "target": "/googlenews",
           "targets": [],
           "value": ""
         },
@@ -3847,7 +3847,7 @@
           "id": "3816fe72-7b7d-bc11-7db1-5d808fffd284",
           "comment": "",
           "command": "open",
-          "target": "/France24",
+          "target": "/globeandmail",
           "targets": [],
           "value": ""
         },
@@ -3906,7 +3906,7 @@
           "id": "65e298f3-b06e-0a78-6a7b-4f9a4eabbfec",
           "comment": "",
           "command": "open",
-          "target": "/foxnews",
+          "target": "/globalnews",
           "targets": [],
           "value": ""
         },
@@ -3965,7 +3965,7 @@
           "id": "21ae293b-5e15-6846-2a02-c00a174feeab",
           "comment": "",
           "command": "open",
-          "target": "/FigaroTech",
+          "target": "/GlobalNational",
           "targets": [],
           "value": ""
         },
@@ -4024,7 +4024,7 @@
           "id": "164ec8d3-21ad-f28c-67b4-3d11f7f36419",
           "comment": "",
           "command": "open",
-          "target": "/FigaroPolitique",
+          "target": "/France5tv",
           "targets": [],
           "value": ""
         },
@@ -4083,7 +4083,7 @@
           "id": "bc8f6d76-d219-d8ac-35b7-53c105e548fd",
           "comment": "",
           "command": "open",
-          "target": "/Figaro",
+          "target": "/France3tv",
           "targets": [],
           "value": ""
         },
@@ -4142,7 +4142,7 @@
           "id": "c06d5d3e-cafd-aa2f-dc1d-f9eb98dea8c2",
           "comment": "",
           "command": "open",
-          "target": "/Europe1",
+          "target": "/France2tv",
           "targets": [],
           "value": ""
         },
@@ -4201,7 +4201,7 @@
           "id": "42fa85ea-b78f-e98c-b339-96483cbcacf6",
           "comment": "",
           "command": "open",
-          "target": "/ELLEfrance",
+          "target": "/FRANCE24",
           "targets": [],
           "value": ""
         },
@@ -4260,7 +4260,7 @@
           "id": "6bae4e59-1d1c-89c2-cfd5-a855424596a9",
           "comment": "",
           "command": "open",
-          "target": "/CTVNews",
+          "target": "/France24",
           "targets": [],
           "value": ""
         },
@@ -4319,7 +4319,7 @@
           "id": "dec489d3-ecf6-0542-13ab-f3679c1b7439",
           "comment": "",
           "command": "open",
-          "target": "/CTVNationalNews",
+          "target": "/foxnews",
           "targets": [],
           "value": ""
         },
@@ -4378,7 +4378,7 @@
           "id": "fa1d17b6-f163-1f85-7f3c-c8917c58deb9",
           "comment": "",
           "command": "open",
-          "target": "/cnnpolitics",
+          "target": "/FigaroTech",
           "targets": [],
           "value": ""
         },
@@ -4437,7 +4437,7 @@
           "id": "60dbff0f-746c-0fd2-093b-7e41fc542a63",
           "comment": "",
           "command": "open",
-          "target": "/cnn",
+          "target": "/FigaroPolitique",
           "targets": [],
           "value": ""
         },
@@ -4496,7 +4496,7 @@
           "id": "abb3c6e9-647c-49b7-5329-db418f03dd30",
           "comment": "",
           "command": "open",
-          "target": "/CNET",
+          "target": "/Figaro",
           "targets": [],
           "value": ""
         },
@@ -4555,7 +4555,7 @@
           "id": "0ff64782-3ead-e104-d35a-b22ec3195f83",
           "comment": "",
           "command": "open",
-          "target": "/CNBC",
+          "target": "/Europe1",
           "targets": [],
           "value": ""
         },
@@ -4614,7 +4614,7 @@
           "id": "5f5a6110-83d6-1445-8237-0004d21e45e9",
           "comment": "",
           "command": "open",
-          "target": "/CBSNews",
+          "target": "/ELLEfrance",
           "targets": [],
           "value": ""
         },
@@ -4673,7 +4673,7 @@
           "id": "fa5d3c4e-07ee-d7d0-3de8-273c1502f210",
           "comment": "",
           "command": "open",
-          "target": "/CBSEveningNews",
+          "target": "/destandaard",
           "targets": [],
           "value": ""
         },
@@ -4732,7 +4732,7 @@
           "id": "2225330b-16a2-0a42-6d6e-d8d7fd6d4436",
           "comment": "",
           "command": "open",
-          "target": "/CBCNews",
+          "target": "/demorgen",
           "targets": [],
           "value": ""
         },
@@ -4791,7 +4791,7 @@
           "id": "afe5b124-f83b-20b3-e26c-c17071b4b5b9",
           "comment": "",
           "command": "open",
-          "target": "/CBCAlerts",
+          "target": "/CTVNews",
           "targets": [],
           "value": ""
         },
@@ -4850,7 +4850,7 @@
           "id": "e0215c9d-4141-283f-b528-29aae22abc27",
           "comment": "",
           "command": "open",
-          "target": "/CBC",
+          "target": "/CTVNationalNews",
           "targets": [],
           "value": ""
         },
@@ -4909,7 +4909,7 @@
           "id": "1a8539d3-0d77-a26e-964e-9b3d437c74e7",
           "comment": "",
           "command": "open",
-          "target": "/Business",
+          "target": "/cnnpolitics",
           "targets": [],
           "value": ""
         },
@@ -4968,7 +4968,7 @@
           "id": "f27a1d6f-2882-1c24-52b8-ef63b5a36c00",
           "comment": "",
           "command": "open",
-          "target": "/BreitbartLondon",
+          "target": "/cnn",
           "targets": [],
           "value": ""
         },
@@ -5027,7 +5027,7 @@
           "id": "cbf95bb6-d7b2-8ed6-03d8-89392eca0413",
           "comment": "",
           "command": "open",
-          "target": "/bpolitics",
+          "target": "/CNET",
           "targets": [],
           "value": ""
         },
@@ -5086,7 +5086,7 @@
           "id": "47b47fd9-f956-ae98-4a54-54543ddb1319",
           "comment": "",
           "command": "open",
-          "target": "/Bostonherald",
+          "target": "/CNBC",
           "targets": [],
           "value": ""
         },
@@ -5145,7 +5145,7 @@
           "id": "ea9ecaa7-a5ad-6f40-9df4-bb81d625126a",
           "comment": "",
           "command": "open",
-          "target": "/bopinion",
+          "target": "/CBSNews",
           "targets": [],
           "value": ""
         },
@@ -5204,7 +5204,7 @@
           "id": "b0b76f64-6379-93aa-0290-bfa2ef57b301",
           "comment": "",
           "command": "open",
-          "target": "/Bloomberg",
+          "target": "/CBSEveningNews",
           "targets": [],
           "value": ""
         },
@@ -5263,7 +5263,7 @@
           "id": "c3c8996b-711f-29d8-cf72-bdf8f89e0686",
           "comment": "",
           "command": "open",
-          "target": "/BFMTV",
+          "target": "/CBCNews",
           "targets": [],
           "value": ""
         },
@@ -5322,7 +5322,7 @@
           "id": "2d7ab302-67b6-a8e5-4271-9ebb953de771",
           "comment": "",
           "command": "open",
-          "target": "/BBCBreaking",
+          "target": "/CBCAlerts",
           "targets": [],
           "value": ""
         },
@@ -5381,7 +5381,7 @@
           "id": "41683a0f-3ad9-72b7-e957-d8e9cd65c6da",
           "comment": "",
           "command": "open",
-          "target": "/bbc",
+          "target": "/CBC",
           "targets": [],
           "value": ""
         },
@@ -5440,7 +5440,7 @@
           "id": "b33bfd06-ba70-9946-0ff9-e5d65c9e70fd",
           "comment": "",
           "command": "open",
-          "target": "/AP",
+          "target": "/Business",
           "targets": [],
           "value": ""
         },
@@ -5499,7 +5499,7 @@
           "id": "4edede1e-6d55-904d-0ef5-15a58b9c8129",
           "comment": "",
           "command": "open",
-          "target": "/abc",
+          "target": "/BreitbartLondon",
           "targets": [],
           "value": ""
         },
@@ -5548,6 +5548,537 @@
         },
         {
           "id": "417e45ab-6d8d-45cd-bcaa-3c45d1154b5f",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "cdce9033-799b-d6e3-570e-bff164ce9b04",
+          "comment": "",
+          "command": "open",
+          "target": "/bpolitics",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "8d641b28-5fa4-94a6-bf58-a85ba68ae73e",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "478f6d7b-e249-329b-61a8-e97faedbe0ee",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b51c370e-bdb0-d4bb-e93a-0e43d08730cd",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f7768126-543e-46bb-8032-2bfc7527e6e3",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "6f4cba77-316e-bd8d-b2bb-5d0fd35861d9",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "2d581c77-e865-baaf-7cd6-357e92be5ec2",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "16cb2b53-c13b-f45f-f4b8-4583f6ab7227",
+          "comment": "",
+          "command": "open",
+          "target": "/Bostonherald",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "598451d0-b9ce-8e7d-0a91-f298fc0f2bf3",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "a8bb9a5d-4b8c-b69e-bd64-39ada32bc3d0",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "41ad0d63-043a-9af4-ae3d-0ba9cec7f8e4",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5b26528d-c9f0-859b-b3cd-9b6a80d0ebdf",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "ee3422cd-e961-58b9-a620-f94f3ff4e8f6",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "511f546b-6804-99e0-7227-8d6c698a1add",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "acdb2c51-0992-a383-98ce-b5cfd04b46be",
+          "comment": "",
+          "command": "open",
+          "target": "/bopinion",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2cfea5e5-9ab0-65da-419a-7c3a5b4cee1b",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "13fd1c06-3b18-6263-d17b-b836b210c926",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c487cfe1-ee8c-b72d-5176-6af88d48474c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "b4c99adf-324e-a9a5-419c-5a34e1a4b231",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "8c5855d0-2ac5-178f-ee45-c1a2d16ad488",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "18566c34-1547-afd8-29dd-82f093f8d6ad",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "382839c3-bbf0-b586-0ab1-c5087003d8d6",
+          "comment": "",
+          "command": "open",
+          "target": "/Bloomberg",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "7500d2c7-9a4d-baea-7ca9-62e7a79f84f6",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "98de146f-9c42-7897-e5a0-0d9550cf3e26",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c028ac05-60f7-295f-4e6e-bb47589e0d6b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "5c99ce2d-4024-2a94-3b87-90ac8c5569ad",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "fbe23c6a-c376-0efe-b4b5-49d3e1502046",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "8267a292-e236-c502-17fd-856fd0b39cf9",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1cdc0e04-12bc-6af5-cf8b-a76ef7c049eb",
+          "comment": "",
+          "command": "open",
+          "target": "/BFMTV",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "ea194967-e7ed-8877-3a1d-e3783e8e3e01",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "d2cf4f19-0373-808a-acfd-b2aa3a93cd57",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "86089ab4-b199-1d0c-9754-e29f2f7d2c40",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "a854a64c-77f1-6377-bf99-3df035cc4da6",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "a4c48c4f-b786-6767-42b1-3b1f21ea512f",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "935d71d1-253e-3c65-23a4-c6ff741be7cb",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a24f3b06-87b9-95ba-3fed-653f3c5742d4",
+          "comment": "",
+          "command": "open",
+          "target": "/BBCBreaking",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c31f0e48-ba6e-2967-2687-80e1f067f327",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "e5196fca-ae9b-4976-b7c8-5451c02600cb",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "65b7f162-24fc-4b5d-d425-7b3106d8a4d7",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "cc753df9-5c3d-9939-98d6-0ca565166900",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "fe7fb586-8eb0-a62b-12ce-1175324442de",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "82577d24-33b0-058e-b81d-cc2517b7e5bd",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "51aa7bbc-a559-6b26-12cf-ba6f4bc46754",
+          "comment": "",
+          "command": "open",
+          "target": "/bbc",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e8812e94-e6bf-5350-2679-4692c1058e5a",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "b7b853e8-f099-7e84-56eb-70e1791fb9f3",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e99178b5-fc36-d6fe-2a57-2bdf5e94aa0c",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f7865f40-b00b-a3ba-a902-92d3766ed907",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "48dc52bf-a574-eb24-55e1-8c41c4a51fc1",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "1aa06341-c298-05e8-beed-40336a2a60bc",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "0c1f247e-61b7-9b98-3a9b-a1292478df03",
+          "comment": "",
+          "command": "open",
+          "target": "/AP",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1292d0e3-bece-fd6e-6ad7-8a8665f1812b",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "a0c3d081-1385-df0a-ca05-dffd20bee145",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "994f3c0e-4d97-bfee-b522-a1e0d6113549",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "53a8751a-3eb5-cf7e-c6b3-48c8de71ddac",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "297845f5-e7a1-3494-e203-ea63722a08b8",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "aae296d0-8d15-cf90-bd7f-d3e30525e043",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "91eaf444-0c99-32a8-e174-71b1531a5d9c",
+          "comment": "",
+          "command": "open",
+          "target": "/abc",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "48f88fab-328e-6897-b5a8-6b2114b02ebc",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "7d1ea722-763f-c31f-eeb0-c9a11bde7ca2",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "75383722-982d-12b4-5d82-dcf1a1861d30",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "ac8fb545-e0fc-345c-7034-5ade69f54cd6",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "ddffc82c-b978-8a8f-f20c-1fbd9a2d2267",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "665b9992-cf4f-41a6-da04-05f83ed6a967",
           "comment": "",
           "command": "end",
           "target": "",
