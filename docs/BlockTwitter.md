@@ -27,7 +27,7 @@ Run Selenium IDE, and open the side file.
 
 ![](img/Selenium1.PNG)
 
-You can then click on the play button.
+You can then click on the `Run all tests` button.
 
 ![](img/Selenium2.PNG)
 

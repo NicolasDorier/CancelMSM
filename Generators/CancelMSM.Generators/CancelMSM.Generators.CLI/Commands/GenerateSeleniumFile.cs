@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.CommandLine;
 using System.CommandLine.Invocation;
 using System.CommandLine.Parsing;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -31,27 +32,59 @@ namespace CancelMSM.Generators.CLI.Commands
 			var file = context.ParseResult.CommandResult.ValueForOption<string>("file")?.Trim();
 			if (!File.Exists(file))
 				throw new CommandArgumentException("--file", "The file does not exists");
-			var jobj = JObject.Parse(GetResource("TwitterBlockTemplate.side.json"));
-			ReplaceIds(jobj);
-			var arr = (JArray)jobj.SelectToken("$.tests[0].commands");
-			var model = arr.DeepClone();
-			arr.Clear();
 
-			
-			foreach (var handle in GetTwitterHandles(File.ReadAllText(file)))
+			var jobj = JObject.Parse(GetResource("TwitterBlockTemplate.side.json"));
+			var testName = jobj.SelectToken($"$.tests[0].name").Value<string>();
+			ReplaceIds(jobj);
+
+			var model = (JObject)jobj.SelectToken($"$.tests[0]");
+			model.Remove();
+			foreach (var batch in GetBatches(GetTwitterHandles(File.ReadAllText(file)), batchSize: 100))
 			{
-				var deletion = model.DeepClone();
-				deletion[0]["target"] = new JValue($"/{handle}");
-				foreach (var child in deletion)
+				var tests = (JArray)jobj.SelectToken("$.tests");
+				tests.Add(model.DeepClone());
+				var arr = (JArray)jobj.SelectToken($"$.tests[{batch.BatchIndex}].commands");
+				arr.Clear();
+				foreach (var handle in batch.Batch)
 				{
-					ReplaceIds(child);
-					arr.Add(child.DeepClone());
+					var deletion = model["commands"].DeepClone();
+					deletion[0]["target"] = new JValue($"/{handle}");
+					foreach (var child in deletion)
+					{
+						ReplaceIds(child);
+						arr.Add(child.DeepClone());
+					}
 				}
+				arr.Parent.Parent["name"] = testName + "-" + batch.BatchIndex;
 			}
-			File.WriteAllText(Path.Combine(OutputDirectory, "BlockTwitter.side"), jobj.ToString(Newtonsoft.Json.Formatting.Indented));
+			File.WriteAllText(Path.Combine(OutputDirectory, $"BlockTwitter.side"), jobj.ToString(Newtonsoft.Json.Formatting.Indented));
 			return Task.FromResult(0);
 		}
 
+		private IEnumerable<(int BatchIndex, List<T> Batch)> GetBatches<T>(IEnumerable<T> list, int batchSize)
+		{
+			var enumerator = list.GetEnumerator();
+			int batchIndex = 0;
+			while (true)
+			{
+				var batch = new List<T>(batchSize);
+				int count = 0;
+				while (count != batchSize)
+				{
+					if (!enumerator.MoveNext())
+						if (count == 0)
+							yield break;
+						else
+						{
+							yield return (batchIndex++, batch);
+							yield break;
+						}
+					count++;
+					batch.Add(enumerator.Current);
+				}
+				yield return (batchIndex++, batch);
+			}
+		}
 		private IEnumerable<string> GetTwitterHandles(string content)
 		{
 			HashSet<string> handles = new HashSet<string>();
