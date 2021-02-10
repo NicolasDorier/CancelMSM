@@ -1050,3 +1050,8 @@ Source: [https://blocknyt.com/list.csv](https://blocknyt.com/list.csv)
 - [@zhonggg](https://twitter.com/zhonggg)
 - [@zinoman](https://twitter.com/zinoman)
 - [@zwoolfe](https://twitter.com/zwoolfe)
+
+# Others
+
+- [@juliacarriew](https://twitter.com/juliacarriew)
+- [@TaylorLorenz](https://twitter.com/TaylorLorenz)
