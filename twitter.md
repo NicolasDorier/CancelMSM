@@ -1,4 +1,5 @@
 # Various TV Channels
+- [@Telegraph](https://twitter.com/Telegraph)
 - [@abc](https://twitter.com/abc)
 - [@CBSNews](https://twitter.com/CBSNews)
 - [@CBSEveningNews](https://twitter.com/CBSEveningNews)
