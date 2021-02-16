@@ -30,6 +30,7 @@
 - [@yahoonews](https://twitter.com/yahoonews)
 - [@bbc](https://twitter.com/bbc)
 - [@BBCBreaking](https://twitter.com/BBCBreaking)
+- [@WiredUK](https://twitter.com/WiredUK)
 - [@newsweek](https://twitter.com/newsweek)
 - [@NewYorker](https://twitter.com/NewYorker)
 - [@politico](https://twitter.com/politico)
