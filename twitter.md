@@ -1,4 +1,6 @@
 # Various TV Channels
+- [@AssociatedPress](https://twitter.com/AssociatedPress)
+- [@Reuters](https://twitter.com/Reuters)
 - [@Telegraph](https://twitter.com/Telegraph)
 - [@abc](https://twitter.com/abc)
 - [@CBSNews](https://twitter.com/CBSNews)
