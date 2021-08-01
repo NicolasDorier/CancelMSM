@@ -1060,3 +1060,5 @@ Source: [https://blocknyt.com/list.csv](https://blocknyt.com/list.csv)
 
 - [@juliacarriew](https://twitter.com/juliacarriew)
 - [@TaylorLorenz](https://twitter.com/TaylorLorenz)
+- [@zachdespart](https://twitter.com/zachdespart)
+- [@HoustonChron](https://twitter.com/HoustonChron)
