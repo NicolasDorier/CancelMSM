@@ -110,6 +110,9 @@
 - [@demorgen](https://twitter.com/demorgen)
 - [@destandaard](https://twitter.com/destandaard)
 - [@vrtnws](https://twitter.com/vrtnws)
+- [@sabcnews](https://twitter.com/sabcnews)
+- [@ewnupdates](https://twitter.com/ewnupdates)
+- [@eNCA](https://twitter.com/eNCA)
 
 # Journalists and reporters
 
