@@ -55231,7 +55231,7 @@
           "id": "4de7fe37-80f4-8d90-9b96-8e00fd09b2dc",
           "comment": "",
           "command": "open",
-          "target": "/byjenamiller",
+          "target": "/ByKLong",
           "targets": [],
           "value": ""
         },
@@ -55290,7 +55290,7 @@
           "id": "fe7c0fee-5391-ca51-ee0d-ff10852c7e2d",
           "comment": "",
           "command": "open",
-          "target": "/byjameswagner",
+          "target": "/byjenamiller",
           "targets": [],
           "value": ""
         },
@@ -55349,7 +55349,7 @@
           "id": "155842a3-4494-d774-c23c-ea9482e49bf3",
           "comment": "",
           "command": "open",
-          "target": "/bydanielvictor",
+          "target": "/byjameswagner",
           "targets": [],
           "value": ""
         },
@@ -55408,7 +55408,7 @@
           "id": "f89acdfd-182b-07de-4f7f-36b4b8be483f",
           "comment": "",
           "command": "open",
-          "target": "/bxchen",
+          "target": "/bydanielvictor",
           "targets": [],
           "value": ""
         },
@@ -55467,7 +55467,7 @@
           "id": "f2bb004f-0fec-1f29-a625-0e480acb29d1",
           "comment": "",
           "command": "open",
-          "target": "/Business",
+          "target": "/bxchen",
           "targets": [],
           "value": ""
         },
@@ -55526,7 +55526,7 @@
           "id": "82cb7691-12fe-d546-7dce-3dfb934d69cb",
           "comment": "",
           "command": "open",
-          "target": "/bumillernyt",
+          "target": "/BusinessInsider",
           "targets": [],
           "value": ""
         },
@@ -55585,7 +55585,7 @@
           "id": "e89979c6-22e8-ac21-0988-2a6fe1d6f914",
           "comment": "",
           "command": "open",
-          "target": "/bstrauch",
+          "target": "/Business",
           "targets": [],
           "value": ""
         },
@@ -55644,7 +55644,7 @@
           "id": "5b9e1a2e-9432-d2cc-24aa-650b00557849",
           "comment": "",
           "command": "open",
-          "target": "/bsheridan",
+          "target": "/bumillernyt",
           "targets": [],
           "value": ""
         },
@@ -55703,7 +55703,7 @@
           "id": "c0c2acec-82ed-2509-74bd-04ebc6b9df35",
           "comment": "",
           "command": "open",
-          "target": "/brucenytimes",
+          "target": "/bstrauch",
           "targets": [],
           "value": ""
         },
@@ -55762,7 +55762,7 @@
           "id": "dd3c2c8f-a882-0a72-704e-9a643f31e766",
           "comment": "",
           "command": "open",
-          "target": "/brooksbarnesnyt",
+          "target": "/bsheridan",
           "targets": [],
           "value": ""
         },
@@ -55821,7 +55821,7 @@
           "id": "b6942784-a25f-4629-6143-8723af365b1e",
           "comment": "",
           "command": "open",
-          "target": "/brianstelter",
+          "target": "/brucenytimes",
           "targets": [],
           "value": ""
         },
@@ -55880,7 +55880,7 @@
           "id": "2032434d-7eff-c3cf-b88b-ffabca2297d3",
           "comment": "",
           "command": "open",
-          "target": "/brianmrosenthal",
+          "target": "/brooksbarnesnyt",
           "targets": [],
           "value": ""
         },
@@ -55939,7 +55939,7 @@
           "id": "0e95549f-55d3-7664-ac4d-b6801dd3d802",
           "comment": "",
           "command": "open",
-          "target": "/brentnyt",
+          "target": "/brianstelter",
           "targets": [],
           "value": ""
         },
@@ -55998,7 +55998,7 @@
           "id": "b302ee86-862e-4736-1c20-4f9b91fc6a07",
           "comment": "",
           "command": "open",
-          "target": "/brennanem",
+          "target": "/brianmrosenthal",
           "targets": [],
           "value": ""
         },
@@ -56057,7 +56057,7 @@
           "id": "de3c0ec7-7712-9c9d-5f1a-0ef3286a48cc",
           "comment": "",
           "command": "open",
-          "target": "/BreitbartLondon",
+          "target": "/brentnyt",
           "targets": [],
           "value": ""
         },
@@ -56116,7 +56116,7 @@
           "id": "568150ab-6ce5-67c6-6e47-43158c1a5c17",
           "comment": "",
           "command": "open",
-          "target": "/brandyzadrozny",
+          "target": "/brennanem",
           "targets": [],
           "value": ""
         },
@@ -56175,7 +56175,7 @@
           "id": "3c62aff5-5eb2-43fb-9148-0a9ba088a476",
           "comment": "",
           "command": "open",
-          "target": "/bradplumer",
+          "target": "/BreitbartLondon",
           "targets": [],
           "value": ""
         },
@@ -56234,7 +56234,7 @@
           "id": "db157b9e-a9aa-74db-72ad-0fd25edfeb53",
           "comment": "",
           "command": "open",
-          "target": "/bpolitics",
+          "target": "/brandyzadrozny",
           "targets": [],
           "value": ""
         },
@@ -56293,7 +56293,7 @@
           "id": "11ff0294-4e88-ba97-8acc-00ab42c0dcad",
           "comment": "",
           "command": "open",
-          "target": "/Bostonherald",
+          "target": "/bradplumer",
           "targets": [],
           "value": ""
         },
@@ -56352,7 +56352,7 @@
           "id": "6682eb2e-b49b-de07-adb4-64e144b7b0be",
           "comment": "",
           "command": "open",
-          "target": "/bopinion",
+          "target": "/bpolitics",
           "targets": [],
           "value": ""
         },
@@ -56411,7 +56411,7 @@
           "id": "105e58f0-d7b8-c67f-f95a-e9fbb5ad4422",
           "comment": "",
           "command": "open",
-          "target": "/blueshirt",
+          "target": "/Bostonherald",
           "targets": [],
           "value": ""
         },
@@ -56470,7 +56470,7 @@
           "id": "664d4557-d409-6db4-da20-e764ea5c3739",
           "comment": "",
           "command": "open",
-          "target": "/Bloomberg",
+          "target": "/bopinion",
           "targets": [],
           "value": ""
         },
@@ -56529,7 +56529,7 @@
           "id": "ea71a57b-0c4a-49b3-a44e-68bed4af121c",
           "comment": "",
           "command": "open",
-          "target": "/billywitz",
+          "target": "/blueshirt",
           "targets": [],
           "value": ""
         },
@@ -56588,7 +56588,7 @@
           "id": "657b928d-bef2-13a3-542b-c95d4beb9522",
           "comment": "",
           "command": "open",
-          "target": "/billwasik",
+          "target": "/Bloomberg",
           "targets": [],
           "value": ""
         },
@@ -56647,7 +56647,7 @@
           "id": "57a431a3-ef02-fb64-7366-ed679438e00a",
           "comment": "",
           "command": "open",
-          "target": "/billmpennington",
+          "target": "/billywitz",
           "targets": [],
           "value": ""
         },
@@ -56706,7 +56706,7 @@
           "id": "8449fffc-661d-3a92-b392-ec36f88f65f7",
           "comment": "",
           "command": "open",
-          "target": "/bigblackjacobin",
+          "target": "/billwasik",
           "targets": [],
           "value": ""
         },
@@ -56765,7 +56765,7 @@
           "id": "ff25b00b-07fa-640a-da80-b585d70e204d",
           "comment": "",
           "command": "open",
-          "target": "/BFMTV",
+          "target": "/billmpennington",
           "targets": [],
           "value": ""
         },
@@ -56824,7 +56824,7 @@
           "id": "f081420a-57a2-2238-8c3a-a5bbe467541f",
           "comment": "",
           "command": "open",
-          "target": "/beyondblunt",
+          "target": "/bigblackjacobin",
           "targets": [],
           "value": ""
         },
@@ -56883,7 +56883,7 @@
           "id": "c70d42b9-a285-10a4-e66b-f801214fa9f1",
           "comment": "",
           "command": "open",
-          "target": "/bernsteinjacob",
+          "target": "/BFMTV",
           "targets": [],
           "value": ""
         },
@@ -56942,7 +56942,7 @@
           "id": "cb1488dc-9877-077a-c9e4-99cf34c88573",
           "comment": "",
           "command": "open",
-          "target": "/benyt",
+          "target": "/beyondblunt",
           "targets": [],
           "value": ""
         },
@@ -57001,7 +57001,7 @@
           "id": "1f45a15c-eab0-73a1-9a87-d726a05a5942",
           "comment": "",
           "command": "open",
-          "target": "/benweisernyt",
+          "target": "/bernsteinjacob",
           "targets": [],
           "value": ""
         },
@@ -57060,7 +57060,7 @@
           "id": "070c011e-567d-443f-7fa2-fab13a3e282c",
           "comment": "",
           "command": "open",
-          "target": "/benshpigel",
+          "target": "/benyt",
           "targets": [],
           "value": ""
         },
@@ -57119,7 +57119,7 @@
           "id": "2dd5c396-f980-9561-be57-593b6cc74cff",
           "comment": "",
           "command": "open",
-          "target": "/benprotess",
+          "target": "/benweisernyt",
           "targets": [],
           "value": ""
         },
@@ -57178,7 +57178,7 @@
           "id": "2c60bf6f-9aa8-6d81-617e-a0e234832520",
           "comment": "",
           "command": "open",
-          "target": "/benoitdlewis",
+          "target": "/benshpigel",
           "targets": [],
           "value": ""
         },
@@ -57237,7 +57237,7 @@
           "id": "c704faf2-1df0-8b3e-32e5-9c2708c6e820",
           "comment": "",
           "command": "open",
-          "target": "/benjaminjackson",
+          "target": "/benprotess",
           "targets": [],
           "value": ""
         },
@@ -57296,7 +57296,7 @@
           "id": "b2a8a0df-bae9-d962-b12d-cadf06255d3d",
           "comment": "",
           "command": "open",
-          "target": "/benhoffmannyt",
+          "target": "/benoitdlewis",
           "targets": [],
           "value": ""
         },
@@ -57355,7 +57355,7 @@
           "id": "b65a6305-1da2-7acf-f8da-291ff29484f6",
           "comment": "",
           "command": "open",
-          "target": "/bengrandgenett",
+          "target": "/benjaminjackson",
           "targets": [],
           "value": ""
         },
@@ -57414,7 +57414,7 @@
           "id": "70baf29d-d73f-4fb5-c54a-878d787c42c7",
           "comment": "",
           "command": "open",
-          "target": "/bencasselman",
+          "target": "/benhoffmannyt",
           "targets": [],
           "value": ""
         },
@@ -57473,7 +57473,7 @@
           "id": "5ad0c9df-34cf-c214-f928-3083a09d464a",
           "comment": "",
           "command": "open",
-          "target": "/bellakwai",
+          "target": "/bengrandgenett",
           "targets": [],
           "value": ""
         },
@@ -57532,7 +57532,7 @@
           "id": "4a5b881a-d3c0-8879-1103-ee0c0a229b36",
           "comment": "",
           "command": "open",
-          "target": "/bdentonphoto",
+          "target": "/bencasselman",
           "targets": [],
           "value": ""
         },
@@ -57591,7 +57591,7 @@
           "id": "cbbe627a-9fda-6bc5-f118-97f4b0d12eba",
           "comment": "",
           "command": "open",
-          "target": "/bcsolomon",
+          "target": "/bellakwai",
           "targets": [],
           "value": ""
         },
@@ -57650,7 +57650,7 @@
           "id": "6d3b7570-b075-85d0-1c2a-0b05ebba9131",
           "comment": "",
           "command": "open",
-          "target": "/BBCBreaking",
+          "target": "/bdentonphoto",
           "targets": [],
           "value": ""
         },
@@ -57709,7 +57709,7 @@
           "id": "1edbe03b-6b31-99fe-0360-3091e11e68c6",
           "comment": "",
           "command": "open",
-          "target": "/bbc",
+          "target": "/bcsolomon",
           "targets": [],
           "value": ""
         },
@@ -57768,7 +57768,7 @@
           "id": "1cb9dbc0-c580-e9f5-7ec5-49ea7095782b",
           "comment": "",
           "command": "open",
-          "target": "/barrymeier",
+          "target": "/BBCBreaking",
           "targets": [],
           "value": ""
         },
@@ -57827,7 +57827,7 @@
           "id": "3c284575-80e9-9e43-3804-d401c1c614e9",
           "comment": "",
           "command": "open",
-          "target": "/bakeal",
+          "target": "/bbc",
           "targets": [],
           "value": ""
         },
@@ -57886,7 +57886,7 @@
           "id": "bef694c2-eb9c-15d8-0a51-71688f769a50",
           "comment": "",
           "command": "open",
-          "target": "/bagrau",
+          "target": "/barrymeier",
           "targets": [],
           "value": ""
         },
@@ -57945,7 +57945,7 @@
           "id": "4924ef9f-83d7-7084-589c-d70342b4c13f",
           "comment": "",
           "command": "open",
-          "target": "/azamsahmed",
+          "target": "/bakeal",
           "targets": [],
           "value": ""
         },
@@ -58004,7 +58004,7 @@
           "id": "b47579ea-cbde-d044-3d0c-55a4464d232c",
           "comment": "",
           "command": "open",
-          "target": "/austinramzy",
+          "target": "/bagrau",
           "targets": [],
           "value": ""
         },
@@ -58063,7 +58063,7 @@
           "id": "838c2b22-3340-9f87-66c3-8f63f8d44a30",
           "comment": "",
           "command": "open",
-          "target": "/austenproject",
+          "target": "/azamsahmed",
           "targets": [],
           "value": ""
         },
@@ -58122,7 +58122,7 @@
           "id": "83ffe93b-1e09-4027-2e22-018f0325456c",
           "comment": "",
           "command": "open",
-          "target": "/aurelienbrd",
+          "target": "/austinramzy",
           "targets": [],
           "value": ""
         },
@@ -58181,7 +58181,7 @@
           "id": "512a6b6f-bc7a-65b1-47ff-12607753a6bd",
           "comment": "",
           "command": "open",
-          "target": "/astrzemien",
+          "target": "/austenproject",
           "targets": [],
           "value": ""
         },
@@ -58240,7 +58240,7 @@
           "id": "eb5066e9-fef7-833c-b5c6-c8111d5a2a3e",
           "comment": "",
           "command": "open",
-          "target": "/asteadwesley",
+          "target": "/aurelienbrd",
           "targets": [],
           "value": ""
         },
@@ -58299,7 +58299,7 @@
           "id": "3a095b11-7027-c004-1653-7d908afdb425",
           "comment": "",
           "command": "open",
-          "target": "/AssociatedPress",
+          "target": "/astrzemien",
           "targets": [],
           "value": ""
         },
@@ -58358,7 +58358,7 @@
           "id": "b18f1e74-c7f5-a37c-8d0a-298d1ad1f532",
           "comment": "",
           "command": "open",
-          "target": "/ashleyattimes",
+          "target": "/asteadwesley",
           "targets": [],
           "value": ""
         },
@@ -58417,7 +58417,7 @@
           "id": "566d277a-fa3f-8976-346b-752ef438f777",
           "comment": "",
           "command": "open",
-          "target": "/aroyalbox",
+          "target": "/AssociatedPress",
           "targets": [],
           "value": ""
         },
@@ -58476,7 +58476,7 @@
           "id": "28b472f0-f41b-e1b7-275b-269ee7b684d8",
           "comment": "",
           "command": "open",
-          "target": "/archietse",
+          "target": "/ashleyattimes",
           "targets": [],
           "value": ""
         },
@@ -58535,7 +58535,7 @@
           "id": "9c338d24-bfa7-03de-a947-2deda4ef3477",
           "comment": "",
           "command": "open",
-          "target": "/arappeport",
+          "target": "/aroyalbox",
           "targets": [],
           "value": ""
         },
@@ -58594,7 +58594,7 @@
           "id": "9468943b-0fa9-d252-9bee-e6fde5173601",
           "comment": "",
           "command": "open",
-          "target": "/apoorva",
+          "target": "/archietse",
           "targets": [],
           "value": ""
         },
@@ -58653,7 +58653,7 @@
           "id": "77fa1e35-c35c-6e50-7269-cdff2fed77a5",
           "comment": "",
           "command": "open",
-          "target": "/AP",
+          "target": "/arappeport",
           "targets": [],
           "value": ""
         },
@@ -58712,7 +58712,7 @@
           "id": "46dc1b92-4754-477e-0167-365678d1f66b",
           "comment": "",
           "command": "open",
-          "target": "/aoscott",
+          "target": "/apoorva",
           "targets": [],
           "value": ""
         },
@@ -58771,7 +58771,7 @@
           "id": "8ae38032-8cad-8301-006b-c4d431716d73",
           "comment": "",
           "command": "open",
-          "target": "/antontroian",
+          "target": "/AP",
           "targets": [],
           "value": ""
         },
@@ -58830,7 +58830,7 @@
           "id": "8052383f-c34b-10b8-998e-8d773ad60a75",
           "comment": "",
           "command": "open",
-          "target": "/anniekarni",
+          "target": "/aoscott",
           "targets": [],
           "value": ""
         },
@@ -58889,7 +58889,7 @@
           "id": "908469e2-68b4-98d7-aa4a-321c82b1e9ff",
           "comment": "",
           "command": "open",
-          "target": "/anniecorreal",
+          "target": "/antontroian",
           "targets": [],
           "value": ""
         },
@@ -58948,7 +58948,7 @@
           "id": "a70e22b0-bab1-0e30-a9bc-a5ab64f7be91",
           "comment": "",
           "command": "open",
-          "target": "/annanowo",
+          "target": "/anniekarni",
           "targets": [],
           "value": ""
         },
@@ -59007,7 +59007,7 @@
           "id": "e98fb65d-0313-63ed-846b-7814a08fb7a0",
           "comment": "",
           "command": "open",
-          "target": "/annadubenko",
+          "target": "/anniecorreal",
           "targets": [],
           "value": ""
         },
@@ -59072,7 +59072,7 @@
           "id": "7ae8da1d-6b50-2f55-e8d3-fe1fd4c629bf",
           "comment": "",
           "command": "open",
-          "target": "/angelicaalzona",
+          "target": "/annanowo",
           "targets": [],
           "value": ""
         },
@@ -59131,7 +59131,7 @@
           "id": "df6b666a-ad3b-7543-18be-3640b72a1e25",
           "comment": "",
           "command": "open",
-          "target": "/angelabaobeibei",
+          "target": "/annadubenko",
           "targets": [],
           "value": ""
         },
@@ -59190,7 +59190,7 @@
           "id": "98c2a99c-b109-3a27-af1c-0d0ac6fcda75",
           "comment": "",
           "command": "open",
-          "target": "/anemonanyc",
+          "target": "/angelicaalzona",
           "targets": [],
           "value": ""
         },
@@ -59249,7 +59249,7 @@
           "id": "c127a53d-8997-7710-e27a-65e0eeee6cd1",
           "comment": "",
           "command": "open",
-          "target": "/andyrnyt",
+          "target": "/angelabaobeibei",
           "targets": [],
           "value": ""
         },
@@ -59308,7 +59308,7 @@
           "id": "4954af7f-6eb5-c95d-cce7-0d8a58667534",
           "comment": "",
           "command": "open",
-          "target": "/andylocal",
+          "target": "/anemonanyc",
           "targets": [],
           "value": ""
         },
@@ -59367,7 +59367,7 @@
           "id": "aa7e3c62-f465-deea-8530-96283bd55219",
           "comment": "",
           "command": "open",
-          "target": "/andrewscrivani",
+          "target": "/andyrnyt",
           "targets": [],
           "value": ""
         },
@@ -59426,7 +59426,7 @@
           "id": "d02a9cbf-2a03-ed16-725a-ee1a61db38e0",
           "comment": "",
           "command": "open",
-          "target": "/andrewrsorkin",
+          "target": "/andylocal",
           "targets": [],
           "value": ""
         },
@@ -59485,7 +59485,7 @@
           "id": "78ec95e7-9836-468b-067f-30b23557d502",
           "comment": "",
           "command": "open",
-          "target": "/andrewlavallee",
+          "target": "/andrewscrivani",
           "targets": [],
           "value": ""
         },
@@ -59544,7 +59544,7 @@
           "id": "fbf29c1b-676d-84ba-391a-af3bd2034745",
           "comment": "",
           "command": "open",
-          "target": "/andrewkueneman",
+          "target": "/andrewrsorkin",
           "targets": [],
           "value": ""
         },
@@ -59603,7 +59603,7 @@
           "id": "0e585f23-560c-01ba-72c3-c97d7bb968b6",
           "comment": "",
           "command": "open",
-          "target": "/andrewkramernyt",
+          "target": "/andrewlavallee",
           "targets": [],
           "value": ""
         },
@@ -59662,7 +59662,7 @@
           "id": "c510fa82-4801-a8cb-68a3-5a07a59f4d28",
           "comment": "",
           "command": "open",
-          "target": "/andrewkeh",
+          "target": "/andrewkueneman",
           "targets": [],
           "value": ""
         },
@@ -59721,7 +59721,7 @@
           "id": "3a2a0087-a277-764e-fd02-4a192ac41591",
           "comment": "",
           "command": "open",
-          "target": "/andrewjacobsnyt",
+          "target": "/andrewkramernyt",
           "targets": [],
           "value": ""
         },
@@ -59780,7 +59780,7 @@
           "id": "a984cd72-12a1-2ae6-7489-c7fd31fea6da",
           "comment": "",
           "command": "open",
-          "target": "/andrewdasnyt",
+          "target": "/andrewkeh",
           "targets": [],
           "value": ""
         },
@@ -59839,7 +59839,7 @@
           "id": "4412acf1-3488-caf5-7979-e5852d0ac201",
           "comment": "",
           "command": "open",
-          "target": "/andreafelliott",
+          "target": "/andrewjacobsnyt",
           "targets": [],
           "value": ""
         },
@@ -59898,7 +59898,7 @@
           "id": "e48472ed-ed37-cc33-9657-9eb7f6d34bdd",
           "comment": "",
           "command": "open",
-          "target": "/anaswanson",
+          "target": "/andrewdasnyt",
           "targets": [],
           "value": ""
         },
@@ -59957,7 +59957,7 @@
           "id": "8317b5f5-fbdc-f9a3-3cd4-c913a3d313b8",
           "comment": "",
           "command": "open",
-          "target": "/anahadoconnor",
+          "target": "/andreafelliott",
           "targets": [],
           "value": ""
         },
@@ -60016,7 +60016,7 @@
           "id": "8171c183-b2ec-544a-a249-99794e7d7013",
           "comment": "",
           "command": "open",
-          "target": "/amyyqin",
+          "target": "/anaswanson",
           "targets": [],
           "value": ""
         },
@@ -60075,7 +60075,7 @@
           "id": "2ffb6e2c-06b1-98f9-d5ac-4072c16ea5f6",
           "comment": "",
           "command": "open",
-          "target": "/amyvirshup",
+          "target": "/anahadoconnor",
           "targets": [],
           "value": ""
         },
@@ -60134,7 +60134,7 @@
           "id": "7dfd2c54-49f5-8da2-ee78-107f59b6bad4",
           "comment": "",
           "command": "open",
-          "target": "/amyfiscus",
+          "target": "/amyyqin",
           "targets": [],
           "value": ""
         },
@@ -60193,7 +60193,7 @@
           "id": "b48c025e-09b1-39e3-baf5-4c7baf937024",
           "comment": "",
           "command": "open",
-          "target": "/amychozick",
+          "target": "/amyvirshup",
           "targets": [],
           "value": ""
         },
@@ -60252,7 +60252,7 @@
           "id": "be6f1c8c-354d-bf80-4f29-0d87fcd27a8f",
           "comment": "",
           "command": "open",
-          "target": "/amy",
+          "target": "/amyfiscus",
           "targets": [],
           "value": ""
         },
@@ -60311,7 +60311,7 @@
           "id": "c61d84e7-ebe6-627f-8e68-6ecd5e5bb1a0",
           "comment": "",
           "command": "open",
-          "target": "/amandataub",
+          "target": "/amychozick",
           "targets": [],
           "value": ""
         },
@@ -60370,7 +60370,7 @@
           "id": "ba87a565-e468-6086-5195-54f74007a27f",
           "comment": "",
           "command": "open",
-          "target": "/amandahess",
+          "target": "/amy",
           "targets": [],
           "value": ""
         },
@@ -60429,7 +60429,7 @@
           "id": "65fd6907-a4fd-a4e9-2133-4159acf8a2f4",
           "comment": "",
           "command": "open",
-          "target": "/amandacox",
+          "target": "/amandataub",
           "targets": [],
           "value": ""
         },
@@ -60488,7 +60488,7 @@
           "id": "392a1d97-4df5-bb95-347b-53804a9d4cfc",
           "comment": "",
           "command": "open",
-          "target": "/allmattnyt",
+          "target": "/amandahess",
           "targets": [],
           "value": ""
         },
@@ -60547,7 +60547,7 @@
           "id": "fd51c858-2c56-c37d-62cd-a103a8101ba0",
           "comment": "",
           "command": "open",
-          "target": "/aliwatkins",
+          "target": "/amandacox",
           "targets": [],
           "value": ""
         },
@@ -60606,7 +60606,7 @@
           "id": "bf989313-e597-7bb1-e951-c49b7adca2c9",
           "comment": "",
           "command": "open",
-          "target": "/alissanyt",
+          "target": "/allmattnyt",
           "targets": [],
           "value": ""
         },
@@ -60665,7 +60665,7 @@
           "id": "5755da67-da7a-d9f2-c22e-12df36c6cde4",
           "comment": "",
           "command": "open",
-          "target": "/aliciaparlap",
+          "target": "/aliwatkins",
           "targets": [],
           "value": ""
         },
@@ -60724,7 +60724,7 @@
           "id": "98277955-b90a-d611-e47a-cf1f8a4f41b2",
           "comment": "",
           "command": "open",
-          "target": "/aliciadesantis",
+          "target": "/alissanyt",
           "targets": [],
           "value": ""
         },
@@ -60783,7 +60783,7 @@
           "id": "1e2b6af1-4991-0054-b461-e83982fbce99",
           "comment": "",
           "command": "open",
-          "target": "/ali",
+          "target": "/aliciaparlap",
           "targets": [],
           "value": ""
         },
@@ -60842,7 +60842,7 @@
           "id": "ab63bddf-eea0-3fcc-01b5-81b6ee7344bb",
           "comment": "",
           "command": "open",
-          "target": "/alexwilliamsnyc",
+          "target": "/aliciadesantis",
           "targets": [],
           "value": ""
         },
@@ -60901,7 +60901,7 @@
           "id": "91aed4fb-7091-d7ab-a5e1-64c945e31d9c",
           "comment": "",
           "command": "open",
-          "target": "/alexmaccallum",
+          "target": "/ali",
           "targets": [],
           "value": ""
         },
@@ -60960,7 +60960,7 @@
           "id": "f75e85ab-6d40-1d05-a488-e6e259da3398",
           "comment": "",
           "command": "open",
-          "target": "/alexburnsnyt",
+          "target": "/alexwilliamsnyc",
           "targets": [],
           "value": ""
         },
@@ -61019,7 +61019,7 @@
           "id": "e99c0e8c-5af7-ccd6-6dcb-c94a94166816",
           "comment": "",
           "command": "open",
-          "target": "/alexandrajacobs",
+          "target": "/alexmaccallum",
           "targets": [],
           "value": ""
         },
@@ -61078,7 +61078,7 @@
           "id": "6f4c4366-c9d7-8a08-eac9-c7dc30f31045",
           "comment": "",
           "command": "open",
-          "target": "/aleksnotalex",
+          "target": "/alexburnsnyt",
           "targets": [],
           "value": ""
         },
@@ -61137,7 +61137,7 @@
           "id": "9d5ed10e-0d19-446a-27fa-b1d895836a6a",
           "comment": "",
           "command": "open",
-          "target": "/alanyuhas",
+          "target": "/alexandrajacobs",
           "targets": [],
           "value": ""
         },
@@ -61196,7 +61196,7 @@
           "id": "935491e7-4f12-f2b3-92e8-a3938aadf506",
           "comment": "",
           "command": "open",
-          "target": "/alanfeuer",
+          "target": "/aleksnotalex",
           "targets": [],
           "value": ""
         },
@@ -61255,7 +61255,7 @@
           "id": "9cbb4f6a-7ff8-b757-1851-c9997727c3af",
           "comment": "",
           "command": "open",
-          "target": "/alanblinder",
+          "target": "/alanyuhas",
           "targets": [],
           "value": ""
         },
@@ -61314,7 +61314,7 @@
           "id": "73c8f571-3f89-96af-0077-4a5f92ba0d06",
           "comment": "",
           "command": "open",
-          "target": "/akannapell",
+          "target": "/alanfeuer",
           "targets": [],
           "value": ""
         },
@@ -61373,7 +61373,7 @@
           "id": "01645fff-c002-217a-11c5-e01607aa3e64",
           "comment": "",
           "command": "open",
-          "target": "/agustin",
+          "target": "/alanblinder",
           "targets": [],
           "value": ""
         },
@@ -61432,7 +61432,7 @@
           "id": "01899d54-f9fc-8575-fabf-a8b26379c7ae",
           "comment": "",
           "command": "open",
-          "target": "/agsnyt",
+          "target": "/akannapell",
           "targets": [],
           "value": ""
         },
@@ -61491,7 +61491,7 @@
           "id": "c13fde5e-d829-a867-72ab-65b15bba7665",
           "comment": "",
           "command": "open",
-          "target": "/afusfeld",
+          "target": "/agustin",
           "targets": [],
           "value": ""
         },
@@ -61550,7 +61550,7 @@
           "id": "8b88e896-b3a6-fffb-2699-a47e9d2e942f",
           "comment": "",
           "command": "open",
-          "target": "/aellick",
+          "target": "/agsnyt",
           "targets": [],
           "value": ""
         },
@@ -61609,7 +61609,7 @@
           "id": "dc0afb6d-a1f7-140b-4ea3-e0b3133d95ae",
           "comment": "",
           "command": "open",
-          "target": "/adriennecarter",
+          "target": "/afusfeld",
           "targets": [],
           "value": ""
         },
@@ -61668,7 +61668,7 @@
           "id": "3d97a011-b4eb-635d-7967-9e905fe2d04c",
           "comment": "",
           "command": "open",
-          "target": "/adeelnyt",
+          "target": "/aellick",
           "targets": [],
           "value": ""
         },
@@ -61727,7 +61727,7 @@
           "id": "d33c79d7-35d2-fcad-eb54-06c87b50720a",
           "comment": "",
           "command": "open",
-          "target": "/adamnagourney",
+          "target": "/adriennecarter",
           "targets": [],
           "value": ""
         },
@@ -61786,7 +61786,7 @@
           "id": "c084d093-f32e-8c63-2e43-e52e3c556707",
           "comment": "",
           "command": "open",
-          "target": "/adamliptak",
+          "target": "/adeelnyt",
           "targets": [],
           "value": ""
         },
@@ -61845,7 +61845,7 @@
           "id": "2f5c6f52-94b6-4344-dc64-0fbd03d59ebb",
           "comment": "",
           "command": "open",
-          "target": "/adamgoldmannyt",
+          "target": "/adamnagourney",
           "targets": [],
           "value": ""
         },
@@ -61904,7 +61904,7 @@
           "id": "0339877e-fad5-7592-7a5d-26ca88a7e39b",
           "comment": "",
           "command": "open",
-          "target": "/abscribe",
+          "target": "/adamliptak",
           "targets": [],
           "value": ""
         },
@@ -61963,7 +61963,7 @@
           "id": "077e80cb-ff58-6315-135e-16ea726868fc",
           "comment": "",
           "command": "open",
-          "target": "/abihabib",
+          "target": "/adamgoldmannyt",
           "targets": [],
           "value": ""
         },
@@ -62022,7 +62022,7 @@
           "id": "ae8cd6b8-6bf5-afe6-acc6-b99c9dce8e98",
           "comment": "",
           "command": "open",
-          "target": "/abc",
+          "target": "/abscribe",
           "targets": [],
           "value": ""
         },
@@ -62081,7 +62081,7 @@
           "id": "4a008602-6cb5-e19e-52c6-664105712baf",
           "comment": "",
           "command": "open",
-          "target": "/abbygoodnough",
+          "target": "/abihabib",
           "targets": [],
           "value": ""
         },
@@ -62140,7 +62140,7 @@
           "id": "d05f448d-8f54-28cd-3f3c-5f35d0ebe871",
           "comment": "",
           "command": "open",
-          "target": "/abby",
+          "target": "/abc",
           "targets": [],
           "value": ""
         },
@@ -62199,7 +62199,7 @@
           "id": "a7a86976-4455-4d5a-2809-5424eda0df87",
           "comment": "",
           "command": "open",
-          "target": "/abarnardnyt",
+          "target": "/abbygoodnough",
           "targets": [],
           "value": ""
         },
@@ -62258,7 +62258,7 @@
           "id": "444edf10-31b1-aea4-4f39-56b1c971e22e",
           "comment": "",
           "command": "open",
-          "target": "/aaron",
+          "target": "/abby",
           "targets": [],
           "value": ""
         },
@@ -62317,7 +62317,7 @@
           "id": "5aa5134f-b7d2-db4d-25fc-020d3243fbe6",
           "comment": "",
           "command": "open",
-          "target": "/a",
+          "target": "/abarnardnyt",
           "targets": [],
           "value": ""
         },
@@ -62376,7 +62376,7 @@
           "id": "b79355d5-7ef4-7151-cf1c-12e7d43eb892",
           "comment": "",
           "command": "open",
-          "target": "/13pt",
+          "target": "/aaron",
           "targets": [],
           "value": ""
         },
@@ -62425,6 +62425,124 @@
         },
         {
           "id": "8e10aea4-6d98-811b-e21b-ac5cc93ced1c",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "07d468c1-16cd-2993-aa69-d64b25831b41",
+          "comment": "",
+          "command": "open",
+          "target": "/a",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "fd6fa267-9fca-d4eb-54c5-d0329ddf7b1a",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "00cd313f-229e-8dba-1be6-e32f97d05c5e",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "26f46aff-f0cc-2251-7dff-b30746608ccb",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f30cbbee-1bb6-44a2-e8e2-e1e4bcbb3c84",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "32337168-54ea-4f4d-e0ab-839f6fb247bb",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "db41185a-69c3-e4a8-c7af-3eea0e6c66c1",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "d59e2ec3-592d-9ae0-6dbc-120b9703d436",
+          "comment": "",
+          "command": "open",
+          "target": "/13pt",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a38a269b-607a-ffc1-c84e-6b3a15634073",
+          "comment": "",
+          "command": "storeXpathCount",
+          "target": "xpath=//*[@data-testid='placementTracking']//*[contains(@data-testid, '-follow')]",
+          "targets": [],
+          "value": "CanFollow"
+        },
+        {
+          "id": "41dbc244-7213-008e-38a7-6e07569d4dc3",
+          "comment": "",
+          "command": "if",
+          "target": "${CanFollow} == 1",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e84f08da-c2e2-6246-6d9f-0cdeeea5840a",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"userActions\"]",
+          "targets": [
+            [
+              "css=.css-1dbjc4n:nth-child(2) > .css-18t94o4 > .css-901oao > .r-13gxpu9",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "d5c69e7b-9327-2822-9889-6bd3f2b9a82b",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"block\"]",
+          "value": ""
+        },
+        {
+          "id": "0d60a701-5814-8291-7b79-d47465af1192",
+          "comment": "",
+          "command": "click",
+          "target": "css=[data-testid~=\"confirmationSheetConfirm\"]",
+          "value": ""
+        },
+        {
+          "id": "b78b6323-77d6-479b-e526-505857736fb3",
           "comment": "",
           "command": "end",
           "target": "",
